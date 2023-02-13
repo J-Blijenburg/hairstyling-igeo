@@ -8,6 +8,7 @@ class SwitchRouter
         switch ($uri) {
             case "/":
             case "/main":
+                require("../controllers/MainController.php");
                 $controller = new MainController();
                 $controller->main();
             default:
