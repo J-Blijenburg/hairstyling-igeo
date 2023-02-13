@@ -1,14 +1,18 @@
 <?php
-class SwitchRouter {
-    public function route($uri) {    
-        // using a simple switch statement to route URL's to controller methods
-        switch($uri) {
+class SwitchRouter
+{
+    public function route($uri)
+    {
+        require_once("../controllers/BaseController.php");
 
-
+        switch ($uri) {
+            case "/":
+            case "/main":
+                $controller = new MainController();
+                $controller->main();
             default:
                 http_response_code(404);
                 break;
         }
     }
 }
-?>
