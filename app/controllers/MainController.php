@@ -3,6 +3,10 @@ class MainController
 {
     public function main()
     {
-        require("../views/Main.php");
+         //The html page consist of multiple view. This is done to prevent duplicated code.
+         $baseController =  new BaseController();
+         $baseController->header();
+         $baseController->body();
+         $baseController->footer();
     }
 }

@@ -3,7 +3,7 @@ class SwitchRouter
 {
     public function route($uri)
     {
-
+        require_once("../controllers/BaseController.php");
         switch ($uri) {
             case "/":
             case "/main":
