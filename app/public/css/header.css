@@ -1,0 +1,49 @@
+.headerLogo {
+    background-color: #72A5CD;
+}
+
+
+ul.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: -2.75%;
+    padding-bottom: 1%;
+}
+
+div.navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+a.navigation {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #CEDFED;
+    color: black;
+}
+
+li:last-child {
+    float: right;
+}
+
+
+.navLeft {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+
+}
+
+.navRight {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}

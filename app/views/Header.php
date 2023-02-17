@@ -13,71 +13,62 @@
     <title>Hairstyling Igeo</title>
     <style>
         <?php
+        require("../public/css/header.css");
         require("../public/css/home.css");
         require("../public/css/footer.css");
 
 
         ?>
     </style>
-    <style>
-        div.navigation {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
-        }
 
-        /* nav.navigation {
-            
-        } */
-        ul.navigation {
-            background-color: #72A5CD;
-            list-style-type: none;
-            overflow: hidden;
-        }
-
-        li.navigation {
-            float: left;
-        }
-
-        a.navigation {
-            color: white;
-            display: block;
-            padding: 8px;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        li a:hover {
-            background-color: #CEDFED;
-            color: black;
-        }
-
-        li:last-child {
-            float: right;
-        }
-    </style>
 </head>
 
 <body>
+
+
+
     <header class="header">
-        <div class="navigation">
+        <div class="headerLogo">
+            <a href="/home">
+                <img width="100%" src="/images/header/logo.png" alt="Image is not shown">
+            </a>
             <nav class="navigation">
                 <ul class="navigation">
-                    <li class="navigation">
-                        <a class="navigation" href="/home">Home</a>
-                    </li>
-                    <li class="navigation">
-                        <a class="navigation" href="/product">Maria Nila</a>
-                    </li>
-                    <li class="navigation">
-                        <a class="navigation" href="/home">
-                            <img src="../public/images/logo.png">
-                        </a>
-                    </li>
-                    <li class="navigation">
-                        <a class="navigation" href="/contact">Contact</a>
-                    </li>
+
+                    <div class="navLeft">
+                        <li class="navigation">
+                            <a class="navigation" href="/home">
+                                <h4>Home</h4>
+                            </a>
+                        </li>
+                        <li class="navigation">
+                            <a class="navigation" href="/product">
+                                <h4>Maria Nila</h4>
+                            </a>
+                        </li>
+                    </div>
+
+
+                    <div class="navRight">
+                        <li class="navigation">
+                            <a class="navigation" href="/product">
+                                <h4>Prijslijst</h4>
+                            </a>
+                        </li>
+
+                        <li class="navigation">
+                            <a class="navigation" href="/contact">
+                                <h4>Contact</h4>
+                            </a>
+                        </li>
+                    </div>
+
+
                 </ul>
             </nav>
+        </div>
+
+        <div class="navigation">
+
         </div>
     </header>
