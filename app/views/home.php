@@ -1,7 +1,7 @@
 <main>
     <?php foreach($allPrices as $row){
         ?>  
-            <h1> <?php $row->priceId ?></h1>
+            <h1> <?php echo $row->PriceID ?></h1>
         <?php
     }?>
 </main>

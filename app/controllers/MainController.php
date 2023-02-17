@@ -1,5 +1,4 @@
 <?php
-require_once("../repositories/PricesRepository.php");
 class MainController
 {
     public function main()
@@ -10,8 +9,6 @@ class MainController
          $baseController->body('home');
          $baseController->footer();
 
-         $pricesRepository = new PriceRepository();
-
-         $allPrices = $pricesRepository->getAll();
+       
     }
 }
