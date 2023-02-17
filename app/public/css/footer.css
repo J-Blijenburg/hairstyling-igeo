@@ -7,8 +7,22 @@ footer {
 
 .footer {
     display: flex;
+    justify-content: space-between;
     background-color: #72A5CD;
     margin-top: 5%;
-    height: 125px;
+    height: 100px;
     
+}
+
+.footerInformation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerContactInformation{
+    display: flex;
+    justify-content: center;
+    width: 25%;
 }
