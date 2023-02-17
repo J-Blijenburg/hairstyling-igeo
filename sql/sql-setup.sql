@@ -8,7 +8,22 @@ CREATE TABLE igeo_db.prices (
     PRIMARY KEY (PriceID)
 );
 
---more create tables
+CREATE TABLE igeo_db.products (
+    ProductID INT NOT NULL AUTO_INCREMENT,
+    ProductName VARCHAR(255) NOT NULL,
+    ProductDescription TEXT NULL,
+    ProductImage BLOB NOT NULL,
+    ProductPrice DOUBLE NULL,
+    PRIMARY KEY (ProductID)
+);
+
+CREATE TABLE igeo_db.data (
+    DataID INT NOT NULL AUTO_INCREMENT,
+    DataPage INT NOT NULL,
+    DataText LONGTEXT NULL,
+    DataImage BLOB NULL,
+    PRIMARY KEY (DataID)
+);
 
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'knippen', '25'),
@@ -21,5 +36,3 @@ VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Dames', 'kleurspoeling', '30'),
         (NULL, 'Kinderen', 'knippen (0-5)', '20'),
         (NULL, 'Kinderen', 'knippen (6-16)', '25')
-
---more insert data
