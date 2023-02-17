@@ -4,17 +4,17 @@ class BaseController
 
     public function header()
     {
-        require("../views/Header.php");
+        require("../views/header.php");
     }
 
     public function body()
     {
-        require("../views/Body.php");
+        require("../views/body.php");
     }
 
 
     public function footer()
     {
-        require("../views/Footer.php");
+        require("../views/footer.php");
     }
 }
