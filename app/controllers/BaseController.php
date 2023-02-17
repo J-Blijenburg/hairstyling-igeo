@@ -1,5 +1,6 @@
 <?php
 require_once("../repositories/PricesRepository.php");
+
 class BaseController
 {
 

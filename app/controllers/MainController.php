@@ -1,5 +1,4 @@
 <?php
-
 class MainController
 {
     public function main()
@@ -7,7 +6,7 @@ class MainController
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $baseController->body($home);
+         $baseController->body();
          $baseController->footer();
 
        
