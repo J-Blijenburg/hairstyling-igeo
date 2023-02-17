@@ -8,6 +8,8 @@ CREATE TABLE igeo_db.prices (
     PRIMARY KEY (PriceID)
 );
 
+--more create tables
+
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Heren', 'knippen/wassen', '27.50'),
@@ -19,3 +21,5 @@ VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Dames', 'kleurspoeling', '30'),
         (NULL, 'Kinderen', 'knippen (0-5)', '20'),
         (NULL, 'Kinderen', 'knippen (6-16)', '25')
+
+--more insert data
