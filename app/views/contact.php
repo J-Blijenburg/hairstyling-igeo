@@ -131,4 +131,54 @@
         </div>
 
     </div>
+    <div class="contactInformation">
+        <div class="contactLocation">
+            <h2 class="contactLocationTitle">
+                Locatie
+            </h2>
+            <p>
+                Van Oosten de Bruijnstraat 209
+            </p>
+            <p>
+                2014 VR, Haarlem
+            </p>
+            <p>
+                Tel: 06 - 18134056
+            </p>
+            <p>
+                @: Igeo@hotmail.nl
+            </p>
+        </div>
+        <div class="contactTimeSlots">
+            <h2 class="contactTimeTableTitle">
+                Openingstijden
+            </h2>
+
+            <div class="timeTable">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Dag</th>
+                            <th scope="col">begin</th>
+                            <th scope="col">eind</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($allOpeningHours as $row) {
+                            if ($row->Open == true) {
+                        ?>
+                                <tr>
+                                    <td> <?php echo $row->Day ?></td>
+                                    <td> <?php echo $row->BeginTime ?></td>
+                                    <td> <?php echo $row->EndTime ?></td>
+                                </tr>
+                        <?php
+                            }
+                        } ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
 </div>
