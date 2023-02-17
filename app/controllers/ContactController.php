@@ -1,4 +1,5 @@
 <?php
+require_once("../repositories/OpeningHoursRepository.php");
 class ContactController
 {
     public function contact()
@@ -7,6 +8,9 @@ class ContactController
          $baseController =  new BaseController();
          $baseController->header();
          
+         $openingHoursRepository = new OpeningHoursRepository();
+         $allOpeningHours = $openingHoursRepository->getAll();
+
          require("../views/contact.php");
         //  $baseController->footer();
     }

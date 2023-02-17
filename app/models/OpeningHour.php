@@ -1,5 +1,5 @@
 <?php
-class OpeningHours{
+class OpeningHour{
     public int $openingHoursId;
     public string $beginTime;
     public string $endTime;

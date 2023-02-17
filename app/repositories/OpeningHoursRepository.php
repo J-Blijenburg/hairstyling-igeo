@@ -1,5 +1,5 @@
 <?php
-require_once("../models/Price.php");
+require_once("../models/OpeningHour.php");
 require_once("../repositories/Repository.php");
 
 class OpeningHoursRepository extends Repository {

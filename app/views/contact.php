@@ -9,24 +9,25 @@
         justify-content: center;
     }
 
-    .contactInformation{
+    .contactInformation {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin-top: 2.5%;
     }
 
-    .contactLocation{
+    .contactLocation {
         display: flex;
         justify-content: center;
         width: 40%;
 
     }
 
-    .contactTimeSlots{
+    .contactTimeSlots {
         display: flex;
         justify-content: center;
         width: 40%;
+        flex-direction: column;
     }
 </style>
 
@@ -40,9 +41,33 @@
             </h2>
         </div>
         <div class="contactTimeSlots">
-            <h2>
+            <h2 class="contactHeader">
                 Openingstijden
             </h2>
+
+            <div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Dag</th>
+                            <th scope="col">begin</th>
+                            <th scope="col">eind</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($allOpeningHours as $row) {
+                        ?>
+                            <tr>
+                                <td> <?php echo $row->Day ?></td>
+                                <td> <?php echo $row->BeginTime ?></td>
+                                <td> <?php echo $row->EndTime ?></td>
+                            </tr>
+
+                        <?php
+                        } ?>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     </div>
