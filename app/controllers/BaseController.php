@@ -7,9 +7,9 @@ class BaseController
         require("../views/Header.php");
     }
 
-    public function body()
+    public function body($page)
     {
-        require("../views/home.php");
+        require("../views/$page.php");
     }
 
 

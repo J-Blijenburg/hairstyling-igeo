@@ -1,13 +1,12 @@
 <?php
-require_once("../repositories/PricesRepository.php");
-class MainController
+class ErrorController
 {
-    public function main()
+    public function error()
     {
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $baseController->body('home');
+         $baseController->body('error');
          $baseController->footer();
 
          $pricesRepository = new PriceRepository();

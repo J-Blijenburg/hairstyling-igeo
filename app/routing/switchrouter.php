@@ -11,8 +11,18 @@ class SwitchRouter
                 $controller = new MainController();
                 $controller->main();
                 break;
+            case "/product":
+                require("../controllers/ProductController.php");
+                $controller = new ProductController();
+                $controller->product();
+            case "/contact":
+                require("../controllers/ContactController.php");
+                $controller = new ContactController();
+                $controller->contact();
             default:
-                http_response_code(404);
+                require("../controllers/ErrorController.php");
+                $controller = new ErrorController();
+                $controller->error();
                 break;
         }
     }
