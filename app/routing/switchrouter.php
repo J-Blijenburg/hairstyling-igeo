@@ -7,9 +7,10 @@ class SwitchRouter
         switch ($uri) {
             case "/":
             case "/main":
-                require("../controllers/MainController.php");
+                require_once("../controllers/MainController.php");
                 $controller = new MainController();
                 $controller->main();
+                break;
             default:
                 http_response_code(404);
                 break;
