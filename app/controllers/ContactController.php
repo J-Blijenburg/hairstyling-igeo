@@ -6,7 +6,8 @@ class ContactController
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $baseController->body('contact');
+         
+         require("../views/contact.php");
         //  $baseController->footer();
     }
 }
