@@ -9,7 +9,7 @@ class OpeningHoursRepository extends Repository {
         $stmt = $this->connection->prepare("SELECT * From openingHours");
         $stmt->execute();
         
-        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Price');
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'OpeningHour');
         $prices = $stmt->fetchAll();
         return $prices;
     }

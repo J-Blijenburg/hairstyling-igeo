@@ -7,8 +7,9 @@ class ProductController
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $pricesRepository = new PriceRepository();
 
+
+         $pricesRepository = new PriceRepository();
          $allPrices = $pricesRepository->getAll();
 
          require("../views/product.php");
