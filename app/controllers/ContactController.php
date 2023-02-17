@@ -7,6 +7,6 @@ class ContactController
          $baseController =  new BaseController();
          $baseController->header();
          $baseController->body('contact');
-         $baseController->footer();
+        //  $baseController->footer();
     }
 }
