@@ -116,16 +116,12 @@
                     <tbody>
                         <?php foreach ($allOpeningHours as $row) {
                             if ($row->Open == true) {
-
-
                         ?>
-
                                 <tr>
                                     <td> <?php echo $row->Day ?></td>
                                     <td> <?php echo $row->BeginTime ?></td>
                                     <td> <?php echo $row->EndTime ?></td>
                                 </tr>
-
                         <?php
                             }
                         } ?>
