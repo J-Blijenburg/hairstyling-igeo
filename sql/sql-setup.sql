@@ -25,6 +25,20 @@ CREATE TABLE igeo_db.data (
     PRIMARY KEY (DataID)
 );
 
+CREATE TABLE `openingHours` (
+  `OpeningsHoursId` int(10) NOT NULL,
+  `BeginTime` varchar(10) NOT NULL,
+  `EndTime` varchar(10) NOT NULL,
+  `Day` varchar(15) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `openingHours`
+  ADD PRIMARY KEY (`OpeningsHoursId`);
+  ALTER TABLE `openingHours`
+  
+  MODIFY `OpeningsHoursId` int(10) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Heren', 'knippen/wassen', '27.50'),
