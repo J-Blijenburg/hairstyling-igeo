@@ -1,5 +1,5 @@
 <?php
-require_once("../repositories/PricesRepository.php");
+
 class MainController
 {
     public function main()
@@ -7,11 +7,9 @@ class MainController
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $baseController->body();
+         $baseController->body($home);
          $baseController->footer();
 
-         $pricesRepository = new PriceRepository();
-
-         $allPrices = $pricesRepository->getAll();
+       
     }
 }

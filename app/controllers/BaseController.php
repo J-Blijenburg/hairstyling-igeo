@@ -1,4 +1,5 @@
 <?php
+require_once("../repositories/PricesRepository.php");
 class BaseController
 {
 
@@ -9,6 +10,9 @@ class BaseController
 
     public function body()
     {
+        $pricesRepository = new PriceRepository();
+
+        $allPrices = $pricesRepository->getAll();
         require("../views/home.php");
     }
 
