@@ -7,11 +7,6 @@ class BaseController
         require("../views/header.php");
     }
 
-    public function body($page)
-    {
-        require("../views/$page.php");
-    }
-
 
     public function footer()
     {

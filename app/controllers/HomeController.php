@@ -1,4 +1,5 @@
 <?php
+require_once("../repositories/PricesRepository.php");
 class HomeController
 {
     public function home()
@@ -6,7 +7,15 @@ class HomeController
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
-         $baseController->body('home');
+
+         $pricesRepository = new PriceRepository();
+
+         $allPrices = $pricesRepository->getAll();
+
+         require("../views/home.php");
+
          $baseController->footer();
+
+         
     }
 }
