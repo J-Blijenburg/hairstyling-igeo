@@ -30,7 +30,7 @@
     <header class="header">
         <div class="headerLogo">
             <a href="/home">
-                <img width="100%" src="/images/header/logo.png" alt="Image is not shown">
+                <img width="100%" src="/images/header/logoAndPictures.png" alt="Image is not shown">
             </a>
             <nav class="navigation">
                 <ul class="navigation">
