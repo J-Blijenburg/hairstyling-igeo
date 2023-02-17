@@ -7,9 +7,9 @@ class SwitchRouter
         switch ($uri) {
             case "/":
             case "/home":
-                require("../controllers/MainController.php");
-                $controller = new MainController();
-                $controller->main();
+                require("../controllers/HomeController.php");
+                $controller = new HomeController();
+                $controller->home();
                 break;
             case "/product":
                 require("../controllers/ProductController.php");

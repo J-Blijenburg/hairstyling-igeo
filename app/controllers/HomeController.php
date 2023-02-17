@@ -1,14 +1,12 @@
 <?php
-class MainController
+class HomeController
 {
-    public function main()
+    public function home()
     {
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
          $baseController->header();
          $baseController->body('home');
          $baseController->footer();
-
-       
     }
 }
