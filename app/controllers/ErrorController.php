@@ -8,9 +8,5 @@ class ErrorController
          $baseController->header();
          $baseController->body('error');
          $baseController->footer();
-
-         $pricesRepository = new PriceRepository();
-
-         $allPrices = $pricesRepository->getAll();
     }
 }

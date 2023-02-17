@@ -8,9 +8,5 @@ class ContactController
          $baseController->header();
          $baseController->body('contact');
          $baseController->footer();
-
-         $pricesRepository = new PriceRepository();
-
-         $allPrices = $pricesRepository->getAll();
     }
 }

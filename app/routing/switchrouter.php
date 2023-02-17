@@ -15,10 +15,12 @@ class SwitchRouter
                 require("../controllers/ProductController.php");
                 $controller = new ProductController();
                 $controller->product();
+                break;
             case "/contact":
                 require("../controllers/ContactController.php");
                 $controller = new ContactController();
                 $controller->contact();
+                break;
             default:
                 require("../controllers/ErrorController.php");
                 $controller = new ErrorController();
