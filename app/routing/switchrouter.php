@@ -6,8 +6,8 @@ class SwitchRouter
         require_once("../controllers/BaseController.php");
         switch ($uri) {
             case "/":
-            case "/main":
-                require_once("../controllers/MainController.php");
+            case "/home":
+                require("../controllers/MainController.php");
                 $controller = new MainController();
                 $controller->main();
                 break;
