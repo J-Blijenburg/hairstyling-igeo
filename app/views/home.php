@@ -1,8 +1,24 @@
 <main>
-    <?php foreach($allPrices as $row){
-        ?>  
-            <h1> <?php echo $row->PriceID ?></h1>
-            <h1> <?php echo $row->PriceName ?></h1>
-        <?php
-    }?>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Soort</th>
+                <th scope="col">Naam</th>
+                <th scope="col">Prijs</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($allPrices as $row) {
+            ?>
+                <tr>
+                    <td> <?php echo $row->PriceType ?></td>
+                    <td> <?php echo $row->PriceName ?></td>
+                    <td> <?php echo $row->PricePrice ?></td>
+                </tr>
+
+            <?php
+            } ?>
+        </tbody>
+    </table>
 </main>
