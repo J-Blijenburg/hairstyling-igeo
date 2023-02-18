@@ -8,14 +8,14 @@ ul.navigation {
     justify-content: space-between;
     list-style-type: none;
     overflow: hidden;
-    margin-top: -3.75%;
+    margin-top: -3.50%;
     padding-bottom: 1%;
+    padding-left: 0;
 }
 
 div.navigation {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
 }
 
 a.navigation {

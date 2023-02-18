@@ -21,7 +21,7 @@ CREATE TABLE igeo_db.data (
     DataID INT NOT NULL AUTO_INCREMENT,
     DataPage INT NOT NULL,
     DataText LONGTEXT NULL,
-    DataImage BLOB NULL,
+    DataImage LONGBLOB NULL,
     PRIMARY KEY (DataID)
 );
 

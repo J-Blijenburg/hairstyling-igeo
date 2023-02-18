@@ -15,6 +15,7 @@
         <?php
         require("../public/css/header.css");
         require("../public/css/home.css");
+        require("../public/css/product.css");
         require("../public/css/footer.css");
 
 
@@ -30,7 +31,7 @@
     <header class="header">
         <div class="headerLogo">
             <a href="/home">
-                <img width="100%" src="/images/header/logoAndPictures.png" alt="Image is not shown">
+                <img width="100%" src="/images/header/logov2.png" alt="Image is not shown">
             </a>
             <nav class="navigation">
                 <ul class="navigation">
@@ -38,12 +39,12 @@
                     <div class="navLeft">
                         <li class="navigation">
                             <a class="navigation" href="/home">
-                                <h4>Home</h4>
+                                <h5>Home</h5>
                             </a>
                         </li>
                         <li class="navigation">
                             <a class="navigation" href="/product">
-                                <h4>Maria Nila</h4>
+                                <h5>Maria Nila</h5>
                             </a>
                         </li>
                     </div>
@@ -52,13 +53,13 @@
                     <div class="navRight">
                         <li class="navigation">
                             <a class="navigation" href="/product">
-                                <h4>Prijslijst</h4>
+                                <h5>Prijslijst</h5>
                             </a>
                         </li>
 
                         <li class="navigation">
                             <a class="navigation" href="/contact">
-                                <h4>Contact</h4>
+                                <h5>Contact</h5>
                             </a>
                         </li>
                     </div>

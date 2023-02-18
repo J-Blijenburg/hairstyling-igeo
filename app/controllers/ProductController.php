@@ -1,5 +1,5 @@
 <?php
-require_once("../repositories/PricesRepository.php");
+require_once("../repositories/ProductRepository.php");
 class ProductController
 {
     public function product()
@@ -9,8 +9,8 @@ class ProductController
          $baseController->header();
 
 
-         $pricesRepository = new PriceRepository();
-         $allPrices = $pricesRepository->getAll();
+         $productRepository = new ProductRepository();
+         $allProducts = $productRepository->getAll();
 
          require("../views/product.php");
          $baseController->footer();
