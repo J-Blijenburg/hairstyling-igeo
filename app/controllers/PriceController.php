@@ -1,8 +1,8 @@
 <?php
 require_once("../repositories/PricesRepository.php");
-class HomeController
+class PriceController
 {
-    public function home()
+    public function prijzen()
     {
          //The html page consist of multiple view. This is done to prevent duplicated code.
          $baseController =  new BaseController();
@@ -10,11 +10,13 @@ class HomeController
 
          $pricesRepository = new PriceRepository();
 
+         $allPrices = $pricesRepository->getAll();
+
          $pricesHeren = $pricesRepository->getPricesHeren();
          $pricesDames = $pricesRepository->getPricesDames();
          $pricesKinderen = $pricesRepository->getPricesKinderen();
 
-         require("../views/home.php");
+         require("../views/prijzen.php");
 
          $baseController->footer();
 

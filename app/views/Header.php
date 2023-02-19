@@ -16,6 +16,7 @@
         require("../public/css/header.css");
         require("../public/css/home.css");
         require("../public/css/product.css");
+        require("../public/css/prijzen.css");
         require("../public/css/footer.css");
 
 
@@ -52,8 +53,8 @@
 
                     <div class="navRight">
                         <li class="navigation">
-                            <a class="navigation" href="/product">
-                                <h5>Prijslijst</h5>
+                            <a class="navigation" href="/prijzen">
+                                <h5>Prijzen</h5>
                             </a>
                         </li>
 

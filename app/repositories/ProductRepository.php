@@ -13,4 +13,7 @@ class ProductRepository extends Repository {
         $prices = $stmt->fetchAll();
         return $prices;
     }
+
+
+    
 }

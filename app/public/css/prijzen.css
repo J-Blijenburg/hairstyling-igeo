@@ -1,0 +1,5 @@
+.prijzenStructure{
+    display: flex;
+    margin: 5%;
+    justify-content: space-evenly;
+}

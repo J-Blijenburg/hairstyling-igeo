@@ -21,6 +21,11 @@ class SwitchRouter
                 $controller = new ContactController();
                 $controller->contact();
                 break;
+            case "/prijzen":
+                require("../controllers/PriceController.php");
+                $controller = new PriceController();
+                $controller->prijzen();
+                break;
             default:
                 require("../controllers/ErrorController.php");
                 $controller = new ErrorController();
