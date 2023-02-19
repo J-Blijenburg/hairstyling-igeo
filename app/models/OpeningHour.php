@@ -4,5 +4,6 @@ class OpeningHour{
     public string $beginTime;
     public string $endTime;
     public string $day;
+    public int $closed;
 }
 ?>

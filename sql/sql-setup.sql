@@ -25,19 +25,14 @@ CREATE TABLE igeo_db.data (
     PRIMARY KEY (DataID)
 );
 
-CREATE TABLE `openingHours` (
-  `OpeningsHoursId` int(10) NOT NULL,
-  `BeginTime` varchar(10) NOT NULL,
-  `EndTime` varchar(10) NOT NULL,
-  `Day` varchar(15) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
-ALTER TABLE `openingHours`
-  ADD PRIMARY KEY (`OpeningsHoursId`);
-  ALTER TABLE `openingHours`
-  
-  MODIFY `OpeningsHoursId` int(10) NOT NULL AUTO_INCREMENT;
-COMMIT;
+CREATE TABLE igeo_db.openingHours (
+    OpeningsHoursId INT NOT NULL AUTO_INCREMENT,
+    Day VARCHAR(15) NOT NULL,
+    BeginTime VARCHAR(10) NULL,
+    EndTime VARCHAR(10) NULL,
+    Closed INT(1) NOT NULL,
+    PRIMARY KEY(OpeningsHoursId)
+);
 
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'knippen', '25'),
@@ -50,3 +45,12 @@ VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Dames', 'kleurspoeling', '30'),
         (NULL, 'Kinderen', 'knippen (0-5)', '20'),
         (NULL, 'Kinderen', 'knippen (6-16)', '25')
+
+INSERT INTO igeo_db.openingHours
+VALUES  (NULL, 'maandag', NULL, NULL, '1'),
+        (NULL, 'dinsdag', '09:00', '14:00', '0'),
+        (NULL, 'woensdag', '09:00', '14:00', '0'),
+        (NULL, 'donderdag', '09:00', '14:00', '0'),
+        (NULL, 'vrijdag', '09:00', '14:00', '0'),
+        (NULL, 'zaterdag', '09:00', '14:00', '0'),
+        (NULL, 'zondag', NULL, NULL, '1')

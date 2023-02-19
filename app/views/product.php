@@ -17,7 +17,6 @@
                                 <p class="card-text"><?php echo $row->ProductDescription ?></p>
                                 <?php $priceFormat = number_format((float)$row->ProductPrice, 2, '.', ''); ?>
                                 <p class="card-text">Prijs: € <?php echo $priceFormat ?>,-</p>
-
                             </div>
                         </div>
                     </div>
