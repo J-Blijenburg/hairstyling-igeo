@@ -10,8 +10,8 @@ class ProductRepository extends Repository {
         $stmt->execute();
         
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'Product');
-        $prices = $stmt->fetchAll();
-        return $prices;
+        $products = $stmt->fetchAll();
+        return $products;
     }
 
 

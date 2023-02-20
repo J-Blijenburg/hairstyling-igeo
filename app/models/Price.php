@@ -1,8 +1,8 @@
 <?php
 class Price{
-    public int $priceId;
-    public string $priceType;
-    public string $priceName;
-    public float $pricePrice;
+    public int $PriceID;
+    public string $PriceType;
+    public string $PriceName;
+    public float $PricePrice;
 }
 ?>

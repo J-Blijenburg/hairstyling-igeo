@@ -1,9 +1,9 @@
 <?php
 class Product{
-    public int $id;
-    public string $name;
-    public string $description;
-    public string $image;
-    public float $price;
+    public int $ProcudtID;
+    public string $ProductName;
+    public string $ProductDescription;
+    public string $ProductImage;
+    public float $ProductPrice;
 }
 ?>

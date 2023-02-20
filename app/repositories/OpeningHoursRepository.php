@@ -10,7 +10,7 @@ class OpeningHoursRepository extends Repository {
         $stmt->execute();
         
         $stmt->setFetchMode(PDO::FETCH_CLASS, 'OpeningHour');
-        $prices = $stmt->fetchAll();
-        return $prices;
+        $openingsHours = $stmt->fetchAll();
+        return $openingsHours;
     }
 }
