@@ -9,6 +9,7 @@
             </div>
             <div class="productinformation">
                 <div class="productInformationText">
+                    <h3> product naampie</h3>
                     A nourishing argan oil that softens, moisturizes and strengthens your hair. The argan oil quickly absorbs and makes the hair smooth while reducing frizz. True Soft Argan Oil has a soft flowery scent of vanilla, rose and jasmine.
                 </div>
                 <div class="card-body" id="contentBodyCard">

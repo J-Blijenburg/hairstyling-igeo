@@ -17,8 +17,13 @@
 
 .productInformationText{
     margin: 2.5%;
+    margin-bottom: 1%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+.productInformationText h3{
+    padding-bottom: 1%;
 }
 
 .contentImages{
