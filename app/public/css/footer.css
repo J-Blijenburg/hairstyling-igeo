@@ -35,8 +35,12 @@ footer {
 
 }
 
-.footerContactInformation p{
-  margin-left: 2.5%;
-  margin-top: 0;
-  margin-bottom: 0;
+.footerContactInformationLeft p{
+    margin-bottom: 0px;
+    margin-right: 2.5%;
+}
+
+.footerContactInformationRight p{
+    margin-bottom: 0px;
+    margin-left: 2.5%;
 }

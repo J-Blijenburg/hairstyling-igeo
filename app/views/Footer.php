@@ -18,7 +18,14 @@
                 <a href="https://nl-nl.facebook.com/HairstylingIgeo">
                     <img height="30px" src="/images/footer/facebook.png" alt="Image is not shown">
 
+
                 </a>
+                <div class="divtest">
+                    <p>
+                        www.facebook.com/HairstylingIgeo
+                    </p>
+                </div>
+
             </div>
 
         </div>
