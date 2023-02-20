@@ -10,6 +10,7 @@ CREATE TABLE igeo_db.prices (
 
 CREATE TABLE igeo_db.products (
     ProductID INT NOT NULL AUTO_INCREMENT,
+    ProductType INT(1) NOT NULL, 
     ProductName VARCHAR(255) NOT NULL,
     ProductDescription TEXT NULL,
     ProductImage BLOB NOT NULL,
@@ -26,12 +27,12 @@ CREATE TABLE igeo_db.data (
 );
 
 CREATE TABLE igeo_db.openingHours (
-    OpeningsHoursId INT NOT NULL AUTO_INCREMENT,
-    Day VARCHAR(15) NOT NULL,
-    BeginTime VARCHAR(10) NULL,
-    EndTime VARCHAR(10) NULL,
-    Closed INT(1) NOT NULL,
-    PRIMARY KEY(OpeningsHoursId)
+    OpeningsHoursID INT NOT NULL AUTO_INCREMENT,
+    OpeningsHoursDay VARCHAR(15) NOT NULL,
+    OpeningsHoursBeginTime VARCHAR(10) NULL,
+    OpeningsHoursEndTime VARCHAR(10) NULL,
+    OpeningsHoursClosed INT(1) NOT NULL,
+    PRIMARY KEY(OpeningsHoursID)
 );
 
 INSERT INTO igeo_db.prices

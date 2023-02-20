@@ -1,9 +1,9 @@
 <?php
 class OpeningHour{
-    public int $OpeningsHoursId;
-    public string $Day;
-    public string $BeginTime;
-    public string $EndTime;
-    public int $Closed;
+    public int $OpeningsHoursID;
+    public string $OpeningsHoursDay;
+    public ?string $OpeningsHoursBeginTime;
+    public ?string $OpeningsHoursEndTime;
+    public int $OpeningsHoursClosed;
 }
 ?>
