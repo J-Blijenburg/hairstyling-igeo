@@ -2,26 +2,29 @@
     <div class="footer">
         <div class="footerInformation">
             <div class="footerContactInformationLeft">
-                <img height="30px" src="/images/footer/home.png" alt="Image is not shown">
+                <a href="/contact">
+                    <img height="30px" src="/images/footer/home.png" alt="Image is not shown">
+                </a>
                 <h6>Van de Oosten de Bruynstraat 209, Haarlem</h6>
             </div>
-
             <div class="footerContactInformationRight">
-                <img height="30px" src="/images/footer/globe.png" alt="Image is not shown">
-                <h6>www.hairstyling-igeo.nl</h6>
+                <a href="https://instagram.com/hairstylingigeo">
+                    <img height="30px" src="/images/footer/instagram.png" alt="Image is not shown">
+                </a>
+                <h6>@hairstylingigeo</h6>
             </div>
             <div class="footerContactInformationLeft">
-                <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
+                <a href="tel:0031618134056">
+                    <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
+                </a>
                 <h6>06 - 18134056</h6>
             </div>
             <div class="footerContactInformationRight">
                 <a href="https://nl-nl.facebook.com/HairstylingIgeo">
                     <img height="30px" src="/images/footer/facebook.png" alt="Image is not shown">
-
-
                 </a>
                 <h6>
-                    www.facebook.com/HairstylingIgeo
+                    /HairstylingIgeo
                 </h6>
 
             </div>
