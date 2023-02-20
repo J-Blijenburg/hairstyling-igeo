@@ -44,7 +44,7 @@ VALUES  (NULL, 'Heren', 'knippen', '25'),
         (NULL, 'Dames', 'verven', '40'),
         (NULL, 'Dames', 'kleurspoeling', '30'),
         (NULL, 'Kinderen', 'knippen (0-5)', '20'),
-        (NULL, 'Kinderen', 'knippen (6-16)', '25')
+        (NULL, 'Kinderen', 'knippen (6-16)', '25');
 
 INSERT INTO igeo_db.openingHours
 VALUES  (NULL, 'maandag', NULL, NULL, '1'),
@@ -53,4 +53,4 @@ VALUES  (NULL, 'maandag', NULL, NULL, '1'),
         (NULL, 'donderdag', '09:00', '14:00', '0'),
         (NULL, 'vrijdag', '09:00', '14:00', '0'),
         (NULL, 'zaterdag', '09:00', '14:00', '0'),
-        (NULL, 'zondag', NULL, NULL, '1')
+        (NULL, 'zondag', NULL, NULL, '1');
