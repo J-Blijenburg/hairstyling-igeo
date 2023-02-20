@@ -14,7 +14,7 @@
             require("../public/css/product.css");
             require("../public/css/prijzen.css");
             require("../public/css/footer.css");
-            require("../public/css/contact.css")
+            require("../public/css/contact.css");
         ?>
     </style>
 </head>

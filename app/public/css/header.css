@@ -2,15 +2,20 @@
     background-color: #72A5CD;
 }
 
-
 ul.navigation {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     overflow: hidden;
     margin-top: -3.50%;
-    padding-bottom: 1%;
-    padding-left: 0;
+    padding: 0;
+}
+
+li.navigation {
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: red;
 }
 
 div.navigation {
@@ -34,12 +39,10 @@ li:last-child {
     float: right;
 }
 
-
 .navLeft {
     display: flex;
     justify-content: space-evenly;
     width: 35%;
-
 }
 
 .navRight {
