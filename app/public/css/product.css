@@ -4,7 +4,56 @@
     flex-wrap: wrap;
     margin: 5%;
 }
-
-.productCard{
+#productCard{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.productHeaderImage{
+    display: flex;
+    width: 100%;
+
+}
+
+.productInformationText{
+    margin: 2.5%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInformationText h3{
+    padding-bottom: 1%;
+}
+
+.contentImages{
+    display: flex;
+}
+
+#contentBodyCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Detemines the size of a single product */
+#contentSingleProduct{
+    width: 15%;
+}
+
+/* Determines the location of the price in the product */
+#contentPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage{
+    display: flex;
+    width: 25%;
+}
+
+.productinformation{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
 }
