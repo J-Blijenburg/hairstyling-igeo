@@ -10,6 +10,7 @@ class ContactController
          
          $openingHoursRepository = new OpeningHoursRepository();
          $allOpeningHours = $openingHoursRepository->getAll();
+         $allOpeningsHours = $openingHoursRepository->getAll();
 
          require("../views/contact.php");
         $baseController->footer();

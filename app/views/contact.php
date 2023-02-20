@@ -65,43 +65,7 @@
                 @: Igeo@hotmail.nl
             </p>
         </div>
-        <div class="contactTimeSlots">
-            <h2 class="contactTimeTableTitle">
-                Openingstijden
-            </h2>
-
-            <div class="timeTable">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">Dag</th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($allOpeningHours as $row) {
-                        ?>
-                                <tr>
-                                    <td> <?php echo $row->Day ?></td>
-                                    <?php if($row->Closed == 0){?>
-                                        <td> <?php echo $row->BeginTime ?></td>
-                                        <td>-</td>
-                                        <td> <?php echo $row->EndTime ?></td><?
-                                    } 
-                                    else{ ?>
-                                        <td class="contactTableClosed" colspan="3">GESLOTEN</td><?
-                                    }
-                                    ?>
-                                </tr>
-                        <?php
-                            }
-                         ?>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        
 
     </div>
 </div>
