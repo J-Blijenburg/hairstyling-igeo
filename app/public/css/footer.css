@@ -36,14 +36,14 @@ footer {
 
 }
 
-.footerContactInformationLeft p{
+.footerContactInformationLeft h6{
 
 
     margin-bottom: 0px;
     margin-left: 2.5%;
 }
 
-.footerContactInformationRight p{
+.footerContactInformationRight h6{
     margin-bottom: 0px;
     margin-right: 2.5%;
 }
