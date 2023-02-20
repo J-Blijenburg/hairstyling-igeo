@@ -3,16 +3,16 @@
         <div class="footerInformation">
             <div class="footerContactInformationLeft">
                 <img height="30px" src="/images/footer/home.png" alt="Image is not shown">
-                <p>Van de Oosten de Bruynstraat 209, Haarlem</p>
+                <h6>Van de Oosten de Bruynstraat 209, Haarlem</h6>
             </div>
 
             <div class="footerContactInformationRight">
                 <img height="30px" src="/images/footer/globe.png" alt="Image is not shown">
-                <p>www.hairstyling-igeo.nl</p>
+                <h6>www.hairstyling-igeo.nl</h6>
             </div>
             <div class="footerContactInformationLeft">
                 <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
-                <p>06 - 18134056</p>
+                <h6>06 - 18134056</h6>
             </div>
             <div class="footerContactInformationRight">
                 <a href="https://nl-nl.facebook.com/HairstylingIgeo">
@@ -20,9 +20,9 @@
 
 
                 </a>
-                <p>
+                <h6>
                     www.facebook.com/HairstylingIgeo
-                </p>
+                </h6>
 
             </div>
 
