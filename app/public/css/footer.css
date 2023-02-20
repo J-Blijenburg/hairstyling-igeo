@@ -17,7 +17,7 @@ footer {
 .footerInformation{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 2.5%;
 }
@@ -25,22 +25,25 @@ footer {
     display: flex;
     width: 40%;
     align-items: center;
-    flex-direction: row-reverse;
 }
 
 .footerContactInformationRight{
     display: flex;
     width: 40%;
     align-items: center;
+    flex-direction: row-reverse;
+
 
 }
 
 .footerContactInformationLeft p{
+
+
     margin-bottom: 0px;
-    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
 
 .footerContactInformationRight p{
     margin-bottom: 0px;
-    margin-left: 2.5%;
+    margin-right: 2.5%;
 }

@@ -20,11 +20,9 @@
 
 
                 </a>
-                <div class="divtest">
-                    <p>
-                        www.facebook.com/HairstylingIgeo
-                    </p>
-                </div>
+                <p>
+                    www.facebook.com/HairstylingIgeo
+                </p>
 
             </div>
 
