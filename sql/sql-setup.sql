@@ -35,6 +35,12 @@ CREATE TABLE igeo_db.openingHours (
     PRIMARY KEY(OpeningsHoursID)
 );
 
+CREATE TABLE igeo_db.carousel (
+    CarouselID INT NOT NULL AUTO_INCREMENT,
+    CarouselImage LONGBLOB NOT NULL,
+    PRIMARY KEY (CarouselID)
+);
+
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'Knippen', '25'),
         (NULL, 'Heren', 'Knippen/Wassen', '27.50'),
