@@ -18,7 +18,15 @@
         ?>
     </style>
 </head>
-
+<?php
+function active($currect_page){
+  $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
+  $url = end($url_array);  
+  if($currect_page == $url){
+      echo 'navActive'; //class name in css 
+  } 
+}
+?>
 <body>
     <header class="header">
         <div class="headerLogo">
@@ -28,25 +36,25 @@
             <nav class="navigation">
                 <ul class="navigation">
                     <div class="navLeft">
-                        <li class="navigation">
-                            <a class="navigation" href="/home">
+                        <li class="navigation <?php active('home');?>">
+                            <a class="navigation <?php active('home');?>" href="/home">
                                 <h5>Home</h5>
                             </a>
                         </li>
-                        <li class="navigation">
-                            <a class="navigation" href="/product">
+                        <li class="navigation <?php active('product');?>">
+                            <a class="navigation <?php active('product');?>" href="/product">
                                 <h5>Maria Nila</h5>
                             </a>
                         </li>
                     </div>
                     <div class="navRight">
-                        <li class="navigation">
-                            <a class="navigation" href="/prijzen">
+                        <li class="navigation <?php active('prijzen');?>">
+                            <a class="navigation <?php active('prijzen');?>" href="/prijzen">
                                 <h5>Prijzen</h5>
                             </a>
                         </li>
-                        <li class="navigation">
-                            <a class="navigation" href="/contact">
+                        <li class="navigation <?php active('contact');?>">
+                            <a class="navigation <?php active('contact');?>" href="/contact">
                                 <h5>Contact</h5>
                             </a>
                         </li>
