@@ -1,6 +1,14 @@
 <div class="contactStructure">
-    <h1 class="contactHeader">Contact</h1>
     <div class="contactInformation">
+        <div class="contactContact">
+            <a href="tel:0031618134056">
+                <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
+            </a>
+            <h6>06 - 18134056</h6>
+            <a href="mailto:igeo@hotmail.nl">
+                <img 
+            </a>
+        </div>
         <div class="contactLocation">
             <h2 class="contactLocationTitle">
                 Locatie
