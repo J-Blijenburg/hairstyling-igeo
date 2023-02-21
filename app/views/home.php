@@ -3,9 +3,6 @@
         <div class="homeMariaNila">
             <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($singleGroupProduct[0]->ProductImage) ?>
             <img src="<?php echo $dataUri; ?>" class="img-fluid rounded-start" alt="Image is not shown" width="100%">
-
-
-
         </div>
 
         <div id="carouselExample" class="carousel slide">

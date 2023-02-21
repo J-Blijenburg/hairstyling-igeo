@@ -12,16 +12,6 @@ body {
   margin-right: 5%;
   margin-left: 5%;
 }
-
-.homePrijzenCard {
-  display: flex;
-  background-color: lightblue;
-}
-
-#prijzenCardTable {
-  margin-bottom: 0;
-}
-
 .pricesAndImage {
   display: flex;
   flex-direction: column;
@@ -30,7 +20,6 @@ body {
   border-radius: 5%;
   padding: 2%;
 }
-
 .homeImage{
   margin-top: 10%;
 }

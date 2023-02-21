@@ -21,3 +21,5 @@ ALGEMEEN
         allemaal zelfde formaat
     kleuren check
     prijs format
+
+    clean up code
