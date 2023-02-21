@@ -13,7 +13,7 @@ CREATE TABLE igeo_db.products (
     ProductType INT(1) NOT NULL, 
     ProductName VARCHAR(255) NOT NULL,
     ProductDescription TEXT NULL,
-    ProductImage BLOB NOT NULL,
+    ProductImage LONGBLOB NOT NULL,
     ProductPrice DOUBLE NULL,
     PRIMARY KEY (ProductID)
 );

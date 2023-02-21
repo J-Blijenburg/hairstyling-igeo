@@ -1,59 +1,62 @@
-.productStructure{
+/* Gives the entire page flexbox so you can center every element */
+.productStructure {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 5%;
+    margin-top: 0;
 }
-#productCard{
+
+/* This card contains a row of products  f.e. Head & hair Heal*/
+#productCard {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 5%;
 }
-.productHeaderImage{
+
+/* The card has 1 big main image */
+.cardImage {
     display: flex;
-    width: 100%;
-
+    width: 25%;
 }
 
-.productInformationText{
+/* A card contains information about a product and this determines the position of that product */
+.productInformationText {
     margin: 2.5%;
     margin-bottom: 1%;
     display: flex;
     flex-direction: column;
 }
 
-.productInformationText h3{
+/* The header text of a card */
+.productInformationText h3 {
     padding-bottom: 1%;
 }
 
-.contentImages{
-    display: flex;
-}
-
-#contentBodyCard{
+/* The card contains multiple cards which can be positioned with this id */
+#contentBodyCard {
     display: flex;
     justify-content: space-between;
 }
 
 /* Detemines the size of a single product */
-#contentSingleProduct{
+#contentSingleProduct {
     width: 15%;
 }
 
 /* Determines the location of the price in the product */
-#contentPrice{
+#contentPrice {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    padding: 1%;
 }
 
-.cardImage{
-    display: flex;
-    width: 25%;
-}
-
-.productinformation{
+/* Most information about the product */
+.productinformation {
     width: 75%;
     display: flex;
     flex-direction: column;
+    background-color: #CEDFED;
 }
