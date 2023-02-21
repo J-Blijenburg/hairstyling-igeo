@@ -32,7 +32,7 @@
                                             <h5>
 
                                                 <?php
-                                                $priceFormat = number_format((float)$row->ProductPrice, 2, '.', '');
+                                                $priceFormat = number_format((float)$row->ProductPrice, 2, ',', '');
                                                 echo $priceFormat;
                                                 ?>,-
                                             </h5>
