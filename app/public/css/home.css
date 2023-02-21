@@ -1,23 +1,40 @@
-body{
-    background-color: #EDE6E6;
-    position: relative;
-    min-height: 100vh;
-  }
-
-  .homeStructure{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-.homePrijzenCard{
-  display: flex;
-  width: 40%;
-  background-color: lightblue;
-  margin-top: 2.5%;
+body {
+  background-color: #EDE6E6;
+  position: relative;
+  min-height: 100vh;
 }
 
-#prijzenCardTable{
+.homeStructure {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.homePrijzenCard {
+  display: flex;
+  background-color: lightblue;
+}
+
+#prijzenCardTable {
   margin-bottom: 0;
+}
+
+.pricesAndImage {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #72A5CD;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.homeImage{
+  margin-top: 10%;
+}
+
+.homeMariaNila{
+  width: 20%;
 }

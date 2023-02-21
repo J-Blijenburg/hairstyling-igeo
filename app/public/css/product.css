@@ -43,6 +43,7 @@
 /* Detemines the size of a single product */
 #contentSingleProduct {
     width: 15%;
+    background-color:lightgoldenrodyellow;
 }
 
 /* Determines the location of the price in the product */
