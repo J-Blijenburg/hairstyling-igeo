@@ -1,14 +1,25 @@
 <div class="contactStructure">
-    <div class="contactInformation">
-        <div class="contactContact">
-            <a href="tel:0031618134056">
-                <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
+    <div class="contactContact">
+        <div class="contactDetail">
+            <a class="contactLink" href="tel:0031618134056">
+                <img class="contactImage" src="/images/footer/telefoon.png" alt="Image is not shown">
             </a>
-            <h6>06 - 18134056</h6>
-            <a href="mailto:igeo@hotmail.nl">
-                <img 
-            </a>
+            <span class="contactPara">06 - 181 340 56</span>
         </div>
+        <div class="contactDetail">
+            <a class="contactLink" href="https://wa.me/31618134056">
+                <img class="contactImage" src="/images/footer/whatsapp.png" alt="Image is not shown">
+            </a>
+            <span class="contactPara">06 - 181 340 56</span>
+        </div>
+        <div class="contactDetail">
+            <a class="contactLink" href="mailto:igeo@hotmail.nl">
+                <img class="contactImage" src="/images/footer/mail.png" alt="Image is not shown">
+            </a>
+            <span class="contactPara">igeo@hotmail.nl</span>
+        </div>
+    </div>
+    <div class="contactInformation">
         <div class="contactLocation">
             <h2 class="contactLocationTitle">
                 Locatie
@@ -18,9 +29,7 @@
             </div>
             <p>
                 Van Oosten de Bruijnstraat 209<br>
-                2014 VR, Haarlem<br>
-                Tel: 06 - 18134056<br>
-                @: Igeo@hotmail.nl
+                2014 VR, Haarlem
             </p>
         </div>
         <div class="contactTimeSlots">

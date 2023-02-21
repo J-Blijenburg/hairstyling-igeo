@@ -36,22 +36,22 @@ CREATE TABLE igeo_db.openingHours (
 );
 
 INSERT INTO igeo_db.prices
-VALUES  (NULL, 'Heren', 'knippen', '25'),
-        (NULL, 'Heren', 'knippen/wassen', '27.50'),
-        (NULL, 'Heren', 'knippen/wassen/fohnen', '30'),
-        (NULL, 'Dames', 'knippen', '25'),
-        (NULL, 'Dames', 'knippen/wassen', '27.50'),
-        (NULL, 'Dames', 'knippen/wassen/fohnen', '30'),
-        (NULL, 'Dames', 'verven', '40'),
-        (NULL, 'Dames', 'kleurspoeling', '30'),
-        (NULL, 'Kinderen', 'knippen (0-5)', '20'),
-        (NULL, 'Kinderen', 'knippen (6-16)', '25');
+VALUES  (NULL, 'Heren', 'Knippen', '25'),
+        (NULL, 'Heren', 'Knippen/Wassen', '27.50'),
+        (NULL, 'Heren', 'Knippen/Wassen/Föhnen', '30'),
+        (NULL, 'Dames', 'Knippen', '25'),
+        (NULL, 'Dames', 'Knippen/Wassen', '27.50'),
+        (NULL, 'Dames', 'Knippen/Wassen/Föhnen', '30'),
+        (NULL, 'Dames', 'Verven', '40'),
+        (NULL, 'Dames', 'Kleurspoeling', '30'),
+        (NULL, 'Kinderen', 'Knippen (0-5)', '20'),
+        (NULL, 'Kinderen', 'Knippen (6-16)', '25');
 
 INSERT INTO igeo_db.openingHours
-VALUES  (NULL, 'maandag', NULL, NULL, '1'),
-        (NULL, 'dinsdag', '09:00', '14:00', '0'),
-        (NULL, 'woensdag', '09:00', '14:00', '0'),
-        (NULL, 'donderdag', '09:00', '14:00', '0'),
-        (NULL, 'vrijdag', '09:00', '14:00', '0'),
-        (NULL, 'zaterdag', '09:00', '14:00', '0'),
-        (NULL, 'zondag', NULL, NULL, '1');
+VALUES  (NULL, 'Maandag', NULL, NULL, '1'),
+        (NULL, 'Dinsdag', '09:00', '14:00', '0'),
+        (NULL, 'Woensdag', '09:00', '14:00', '0'),
+        (NULL, 'Donderdag', '09:00', '14:00', '0'),
+        (NULL, 'Vrijdag', '09:00', '14:00', '0'),
+        (NULL, 'Zaterdag', '09:00', '14:00', '0'),
+        (NULL, 'Zondag', NULL, NULL, '1');
