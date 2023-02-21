@@ -1,0 +1,23 @@
+HOME
+    carousel
+    layout
+    tekst schrijven
+MARIA NILA
+    data invoer
+    layout prijzen
+PRIJZEN
+    samenvoegen
+CONTACT
+    outlining
+        map
+        openingstijden
+HEADER
+FOOTER
+
+ALGEMEEN
+    responsive
+        hamburger
+    fotos editen
+        allemaal zelfde formaat
+    kleuren check
+    prijs format
