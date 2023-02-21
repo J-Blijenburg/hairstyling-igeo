@@ -12,9 +12,9 @@
                     <?php foreach ($pricesHeren as $row) {
                     ?>
                         <tr>
-                            <td> <?php echo $row->PriceName ?></td>
-                            <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                    echo $priceFormat; ?>,-</td>
+                            <td><?php echo $row->PriceName ?></td>
+                            <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                    echo $priceFormat; ?></td>
                         </tr>
                     <?php
                     } ?>
@@ -33,9 +33,9 @@
                     <?php foreach ($pricesDames as $row) {
                     ?>
                         <tr>
-                            <td> <?php echo $row->PriceName ?></td>
-                            <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                    echo $priceFormat; ?>,-</td>
+                            <td><?php echo $row->PriceName ?></td>
+                            <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                    echo $priceFormat; ?></td>
                         </tr>
                     <?php
                     } ?>
@@ -54,9 +54,9 @@
                     <?php foreach ($pricesKinderen as $row) {
                     ?>
                         <tr>
-                            <td> <?php echo $row->PriceName ?></td>
-                            <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                    echo $priceFormat; ?>,-</td>
+                            <td><?php echo $row->PriceName ?></td>
+                            <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                    echo $priceFormat; ?></td>
                         </tr>
                     <?php
                     } ?>
