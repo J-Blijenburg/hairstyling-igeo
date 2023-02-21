@@ -1,6 +1,6 @@
 <?php
 require_once("../repositories/PricesRepository.php");
-require_once("../repositories/ProductRepository.php");
+require_once("../repositories/CarouselRepository.php");
 class HomeController
 {
     public function home()
@@ -10,8 +10,8 @@ class HomeController
          $baseController->header();
 
          $pricesRepository = new PriceRepository();
-         $productRepository = new ProductRepository();
-         $singleGroupProduct = $productRepository->getGroupProducts();
+         $carouselRepository = new CarouselRepository();
+        $imageCarousel = $carouselRepository->getAll();
 
          $pricesHeren = $pricesRepository->getPricesHeren();
          $pricesDames = $pricesRepository->getPricesDames();
