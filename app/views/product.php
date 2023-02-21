@@ -8,7 +8,7 @@
                 <div class="card" id="productCard">
                     <div class=cardImage>
                     <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($firstRow->ProductImage) ?>
-                                            <img src="<?php echo $dataUri; ?>" class="img-fluid rounded-start" alt="Image is not shown" width="100%">
+                                            <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown" width="100%">
                     </div>
                     <div class="productinformation">
                         <div class="productInformationText">
@@ -23,7 +23,7 @@
                                     <div class="card" id="contentSingleProduct">
                                         <div class="contentImages">
                                             <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($row->ProductImage) ?>
-                                            <img src="<?php echo $dataUri; ?>" class="img-fluid rounded-start" alt="Image is not shown">
+                                            <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown">
                                         </div>
                                         <div class="card-body" id="contentPrice">
                                             <h5>

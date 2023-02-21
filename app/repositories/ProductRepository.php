@@ -13,7 +13,14 @@ class ProductRepository extends Repository {
         $products = $stmt->fetchAll();
         return $products;
     }
-
+    public function getGroupProducts(){
+        $stmt = $this->connection->prepare("SELECT * FROM products WHERE ProductType = 1");
+        $stmt->execute();
+        
+        $stmt->setFetchMode(PDO::FETCH_CLASS, 'Product');
+        $products = $stmt->fetchAll();
+        return $products;
+    }
 
     
 }
