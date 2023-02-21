@@ -18,6 +18,9 @@
             </a>
             <span class="contactPara">igeo@hotmail.nl</span>
         </div>
+        <p style="width:100%;text-align:center;margin:0;">
+            Afspraken maken via Whatsapp
+        </p>
     </div>
     <div class="contactInformation">
         <div class="contactLocation">
