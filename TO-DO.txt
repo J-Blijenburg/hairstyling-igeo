@@ -1,6 +1,6 @@
 HOME
-    carousel
-    layout
+    carousel -- gedaan
+    layout -- gedaan
     tekst schrijven
 MARIA NILA
     data invoer
