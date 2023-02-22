@@ -11,7 +11,6 @@ class ProductController
 
          $productRepository = new ProductRepository();
          $allProducts = $productRepository->getAll();
-
          require("../views/product.php");
          $baseController->footer();
 

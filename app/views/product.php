@@ -7,13 +7,13 @@
         ?>
                 <div class="card" id="productCard">
                     <div class=cardImage>
-                    <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($firstRow->ProductImage) ?>
-                                            <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown" width="100%">
+                        <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($firstRow->ProductImage) ?>
+                        <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown" width="100%">
                     </div>
                     <div class="productinformation">
                         <div class="productInformationText">
-                            <h3> <?php echo $firstRow->ProductName ?> <span id="backgroundBadge" class="badge ">Vegan</span></h3>            
-                            <?php echo $firstRow->ProductDescription?> 
+                            <h3> <?php echo $firstRow->ProductName ?> <span id="backgroundBadge" class="badge ">Vegan</span></h3>
+                            <?php echo $firstRow->ProductDescription ?>
                         </div>
                         <div class="card-body" id="contentBodyCard">
 
@@ -34,7 +34,7 @@
                                                 <?php
                                                 $priceFormat = number_format((float)$row->ProductPrice, 2, ',', '');
                                                 echo $priceFormat;
-                                                ?>,-
+                                                ?>
                                             </h5>
                                         </div>
                                     </div>
@@ -52,7 +52,22 @@
 
 
         <?php } ?>
-    </div>
 
+    </div>
+    <div class="hamburgerProductStructure">
+        <?php
+        foreach ($allProducts as $row) {
+            if ($row->ProductType == 1) {
+        ?>
+                <div class="card" >
+                    <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($row->ProductImage) ?>
+                    <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown" width="100%">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row->ProductName ?> </h5>
+                        <p class="card-text"><?php echo $row->ProductDescription ?></p>
+                    </div>
+                </div>
+        <?php }
+        } ?>
 
 </main>
