@@ -1,8 +1,6 @@
 <main>
     <div class="homeStructure">
-
         <div class="pricesAndImage">
-
             <div class="homeIntroText">
                 <div></div>
                 <h1>Hairstyling igeo </h1>
@@ -21,7 +19,7 @@
                             <b>06 - 18134056 <br> </b>
                             <br>
                             Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten<br>
-                            
+
                             <br>
                             Mochten er vragen zijn. <br>
                             Aarzel niet en bel, whatsapp of kom gerust langs. <br>
@@ -30,10 +28,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
             <div class="homeImage">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">

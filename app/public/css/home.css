@@ -80,3 +80,9 @@ body {
 .homeImageText p {
   margin: 5%;
 }
+
+@media only screen and (max-width: 480px){
+  .homeStructure{
+    display: none;
+  }
+}

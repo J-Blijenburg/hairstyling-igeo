@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +10,26 @@
     <title>Hairstyling Igeo</title>
     <style>
         <?php
-            require("../public/css/header.css");
-            require("../public/css/home.css");
-            require("../public/css/product.css");
-            require("../public/css/prijzen.css");
-            require("../public/css/footer.css");
-            require("../public/css/contact.css");
+        require("../public/css/header.css");
+        require("../public/css/home.css");
+        require("../public/css/product.css");
+        require("../public/css/prijzen.css");
+        require("../public/css/footer.css");
+        require("../public/css/contact.css");
         ?>
     </style>
 </head>
 <?php
-function active($currect_page){
-  $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
-  $url = end($url_array);  
-  if($currect_page == $url){
-      echo 'navActive'; //class name in css 
-  } 
+function active($currect_page)
+{
+    $url_array =  explode('/', $_SERVER['REQUEST_URI']);
+    $url = end($url_array);
+    if ($currect_page == $url) {
+        echo 'navActive'; //class name in css 
+    }
 }
 ?>
+
 <body>
     <header class="header">
         <div class="headerLogo">
@@ -36,30 +39,48 @@ function active($currect_page){
             <nav class="navigation">
                 <ul class="navigation">
                     <div class="navLeft">
-                        <li class="navigation <?php active('home');?>">
-                            <a class="navigation <?php active('home');?>" href="/home">
+                        <li class="navigation <?php active('home'); ?>">
+                            <a class="navigation <?php active('home'); ?>" href="/home">
                                 <h5>Home</h5>
                             </a>
                         </li>
-                        <li class="navigation <?php active('product');?>">
-                            <a class="navigation <?php active('product');?>" href="/product">
+                        <li class="navigation <?php active('product'); ?>">
+                            <a class="navigation <?php active('product'); ?>" href="/product">
                                 <h5>Maria Nila</h5>
                             </a>
                         </li>
                     </div>
                     <div class="navRight">
-                        <li class="navigation <?php active('prijzen');?>">
-                            <a class="navigation <?php active('prijzen');?>" href="/prijzen">
+                        <li class="navigation <?php active('prijzen'); ?>">
+                            <a class="navigation <?php active('prijzen'); ?>" href="/prijzen">
                                 <h5>Prijzen</h5>
                             </a>
                         </li>
-                        <li class="navigation <?php active('contact');?>">
-                            <a class="navigation <?php active('contact');?>" href="/contact">
+                        <li class="navigation <?php active('contact'); ?>">
+                            <a class="navigation <?php active('contact'); ?>" href="/contact">
                                 <h5>Contact</h5>
                             </a>
                         </li>
                     </div>
                 </ul>
             </nav>
+        </div>
+        <div class="mobileHamburger">
+            <a id="headerImage" href="/home">
+                <img width="100%" src="/images/header/logov2.png" alt="Image is not shown">
+            </a>
+            <section class="hamburgerNavBar">
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                    <li>Four</li>
+                    <li>Five</li>
+                </ul>
+            </section>
         </div>
     </header>

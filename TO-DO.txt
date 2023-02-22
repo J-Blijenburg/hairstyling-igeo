@@ -3,6 +3,7 @@ HOME
     layout -- gedaan
     tekst schrijven
 MARIA NILA
+    Vegan product aangeven -- gedaan
     data invoer
     layout prijzen
 PRIJZEN
@@ -22,3 +23,6 @@ ALGEMEEN
     kleuren check
 
     clean up code
+    CSS wellicht anders aan roepen (Via link ipv. require)
+
+    Testen op gratis hosting server

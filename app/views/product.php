@@ -12,7 +12,7 @@
                     </div>
                     <div class="productinformation">
                         <div class="productInformationText">
-                            <h3> <?php echo $firstRow->ProductName ?></h3>            
+                            <h3> <?php echo $firstRow->ProductName ?> <span id="backgroundBadge" class="badge ">Vegan</span></h3>            
                             <?php echo $firstRow->ProductDescription?> 
                         </div>
                         <div class="card-body" id="contentBodyCard">
