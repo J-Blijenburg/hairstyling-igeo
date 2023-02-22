@@ -7,7 +7,7 @@ MARIA NILA
     data invoer
     layout prijzen
 PRIJZEN
-    samenvoegen
+    samenvoegen -- gedaan
 CONTACT
     outlining
         map
