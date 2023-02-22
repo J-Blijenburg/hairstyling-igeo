@@ -10,7 +10,7 @@
 .prijzenCard {
     width: 40%;
     display: flex;
-    background-color: lightblue;
+    background-color: #CEDFED;
 }
 .prijzenCard:last-child{
     margin-top: 5%;
