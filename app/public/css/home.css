@@ -81,15 +81,53 @@ body {
   margin: 5%;
 }
 
-@media only screen and (max-width: 480px) {
 
-  body {
-    background-color: #EDE6E6;
-    position: relative;
-    min-height: 100vh;
+
+@media only screen and (min-width: 481px) {
+  .hamburgerHomeStructure {
+    display: none;
   }
+}
 
+@media only screen and (max-width: 480px) {
   .homeStructure {
     display: none;
+  }
+
+  /* For the mobile version */
+
+  .hamburgerHomeStructure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+    background-color: #CEDFED;
+
+  }
+
+  .hamburgerHomeIgeoImage {
+    background-color: wheat;
+    scale: 80%;
+  }
+
+  .homePrijzenCard {
+    width: 100%;
+  }
+
+  .homeImageText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .homeIntroText h1 {
+    font-size: 250%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .homeIntroText {
+    width: 100%;
+    margin: 0;
   }
 }

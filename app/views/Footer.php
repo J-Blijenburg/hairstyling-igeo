@@ -38,11 +38,11 @@
             <a href="https://goo.gl/maps/CbYRk4ZLwUCgnQQm6">
                 <img height="30px" src="/images/footer/home.png" alt="Image is not shown">
             </a>
-            <a href="https://instagram.com/hairstylingigeo">
-                <img height="30px" src="/images/footer/instagram.png" alt="Image is not shown">
-            </a>
             <a href="tel:0031618134056">
                 <img height="30px" src="/images/footer/telefoon.png" alt="Image is not shown">
+            </a>
+            <a href="https://instagram.com/hairstylingigeo">
+                <img height="30px" src="/images/footer/instagram.png" alt="Image is not shown">
             </a>
             <a href="https://nl-nl.facebook.com/HairstylingIgeo">
                 <img height="30px" src="/images/footer/facebook.png" alt="Image is not shown">
