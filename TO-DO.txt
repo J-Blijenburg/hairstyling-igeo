@@ -18,6 +18,8 @@ FOOTER
 ALGEMEEN
     responsive
         hamburger
+        zorgen dat de hamburgermenu op elke grote goed afgelijnd is
+
     fotos editen
         allemaal zelfde formaat
     kleuren check

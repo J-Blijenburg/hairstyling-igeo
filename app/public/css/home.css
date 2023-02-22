@@ -81,8 +81,15 @@ body {
   margin: 5%;
 }
 
-@media only screen and (max-width: 480px){
-  .homeStructure{
+@media only screen and (max-width: 480px) {
+
+  body {
+    background-color: #EDE6E6;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .homeStructure {
     display: none;
   }
 }

@@ -44,8 +44,30 @@ footer {
     margin-right: 2.5%;
 }
 
+
+@media only screen and (min-width: 480px){
+    
+    .hamburgerFooterInformation{
+        display: none;
+    }
+  }
+
 @media only screen and (max-width: 480px){
     .footer{
       display: none;
+    }
+
+    .hamburgerFooter {
+        width: 100%;
+        bottom: 0;
+        height: 0;
+        position: absolute;
+    }
+    .hamburgerFooterInformation{
+        display: flex;
+        justify-content: space-around;
+        background-color: #72A5CD;
+        height: 75px;
+        align-items: center;
     }
   }
