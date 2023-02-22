@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
 }
 
-.homeIntroText{
+.homeIntroText {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,9 +14,10 @@ body {
   background-color: #CEDFED;
 }
 
-.homeIntroText h1{
+.homeIntroText h1 {
   font-size: 400%;
- margin-left: 2%;
+  margin-left: 2%;
+  margin-bottom: 0;
 }
 
 .homeStructure {
@@ -57,25 +58,25 @@ body {
   background-color: #CEDFED;
 }
 
-.homeIgeoImage{
- width: 100%;
- display: flex;
- flex-direction: row;
+.homeIgeoImage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.homeImageText{
+.homeImageText {
   width: 60%;
   margin: 2%;
   background-color: wheat;
- }
+}
 
- .imageIgeo{
+.imageIgeo {
   margin-left: 2%;
   margin-bottom: 2%;
   margin-top: 2%;
 
 }
 
- .homeImageText p{
+.homeImageText p {
   margin: 5%;
- }
+}

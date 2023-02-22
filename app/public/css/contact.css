@@ -2,6 +2,7 @@
 .contactStructure {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 /* The first title of the page */

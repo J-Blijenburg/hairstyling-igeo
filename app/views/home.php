@@ -11,19 +11,20 @@
                     <img class="imageIgeo" width="40%" src="/images/igeo.jpg" alt="Image is not shown">
                     <div class="homeImageText">
                         <p>
-                           blabla bla <br>
-                           mooie stukkie tekst <br>
-                           vbla bla bcscale <br>
-                           40 jaar ervaring!!! <br>
-                           gewoon een goeie kapper weetje <br>
-                           elke taak wordt een geknipte zaak <br>
-                           lorem ipsum <br>
-                           kaal zijn is voor losers <br>    
-                           nog een stukkie tekst <br>
-                           Verkoop een mooie product <br>
-                           maria nila <br>
-                           wejo <br>    
-                           knip je sneller dan een messi <br>
+                            Welkom, <br>
+                            <br>
+                            Bij Hairstyling igeo wordt u met meer dan 40 jaar<br>
+                            knip ervaring verzorgd. <br>
+                            <br>
+                            Alle afsraken kunnen gemaakt worden d.m.v. <br>
+                            te bellen of een whatsapp te sturen. <br>
+                            <b>06 - 18134056 <br> </b>
+                            <br>
+                            Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten<br>
+                            
+                            <br>
+                            Mochten er vragen zijn. <br>
+                            Aarzel niet en bel, whatsapp of kom gerust langs. <br>
                         </p>
 
                     </div>
