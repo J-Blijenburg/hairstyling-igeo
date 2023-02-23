@@ -74,11 +74,10 @@
 .contactLocationTitle {
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
-    padding-bottom: 5%;
+    background-color: #72A5CD;
     padding-top: 5%;
     width: 100%;
-    height: 100px;
+    height: 75px;
 }
 
 /* Contains information of the card 'Openingstijden'  */
@@ -94,10 +93,10 @@
 
 /* The Title of the card 'Openingstijden' */
 .contactTimeTableTitle {
-    height: 100px;
+    height: 75px;
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
+    background-color: #72A5CD;
     padding-bottom: 5%;
     padding-top: 5%;
     width: 100%;
