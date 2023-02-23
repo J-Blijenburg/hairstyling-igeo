@@ -33,19 +33,23 @@
     flex-wrap: wrap;
     border-radius: 2.5%;
 }
+
 .contactDetail {
     justify-content: space-between;
     width: 20%;
 }
+
 .contactPara {
     margin: 0;
     padding-left: 2%;
     font-size: 150%;
 }
+
 .contactImage {
     height: 40px;
     width: auto;
 }
+
 .contactLink {
     text-decoration: none;
 }
@@ -107,19 +111,54 @@
     padding-top: 5%;
 }
 
-.contactTableClosed{
+.contactTableClosed {
     text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
-
-    body {
-        background-color: #EDE6E6;
-        position: relative;
-        min-height: 100vh;
+@media only screen and (min-width: 481px) {
+    .hamburgerContactStructure {
+        display: none;
     }
+}
 
+@media only screen and (max-width: 480px) {
     .contactStructure {
         display: none;
+    }
+
+    .hamburgerContactStructure {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactContact{
+        margin-top: 2.5%;
+        margin-left: 0;
+    }
+
+    .contactDetail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactDetail .contactPara {
+        width: 150%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .contactLocation {
+        margin-top:10%;
+        width: 90%;
+    }
+
+    .contactTimeSlots{
+        margin-top:10%;
+        width: 90%;
     }
 }
