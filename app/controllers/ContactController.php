@@ -8,6 +8,7 @@ class ContactController
          $baseController =  new BaseController();
          $baseController->header();
          
+         //contactpage needs the openinghours repo, for the loading of all hours
          $openingHoursRepository = new OpeningHoursRepository();
          $allOpeningHours = $openingHoursRepository->getAll();
          $allOpeningsHours = $openingHoursRepository->getAll();

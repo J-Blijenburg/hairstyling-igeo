@@ -1,13 +1,19 @@
+--first we create a database for all our data
 CREATE DATABASE igeo_db;
 
+--prices table for all the prices on the prices/home
+--AUTO_INCREMENT is making infinite ID's
 CREATE TABLE igeo_db.prices (
-    PriceID INT NOT NULL AUTO_INCREMENT,
+    PriceID INT NOT NULL AUTO_INCREMENT, 
     PriceType VARCHAR(8) NOT NULL,
     PriceName VARCHAR(255) NOT NULL,
     PricePrice DOUBLE NOT NULL,
     PRIMARY KEY (PriceID)
 );
 
+--products for all the products on the Maria Nila
+--LONGBLOB is for images
+--INT(1) is for a boolean
 CREATE TABLE igeo_db.products (
     ProductID INT NOT NULL AUTO_INCREMENT,
     ProductType INT(1) NOT NULL, 
@@ -18,6 +24,7 @@ CREATE TABLE igeo_db.products (
     PRIMARY KEY (ProductID)
 );
 
+--is not getting used at the moment
 CREATE TABLE igeo_db.data (
     DataID INT NOT NULL AUTO_INCREMENT,
     DataPage INT NOT NULL,
@@ -26,6 +33,7 @@ CREATE TABLE igeo_db.data (
     PRIMARY KEY (DataID)
 );
 
+--used for the table of the contactpage
 CREATE TABLE igeo_db.openingHours (
     OpeningsHoursID INT NOT NULL AUTO_INCREMENT,
     OpeningsHoursDay VARCHAR(15) NOT NULL,
@@ -35,12 +43,16 @@ CREATE TABLE igeo_db.openingHours (
     PRIMARY KEY(OpeningsHoursID)
 );
 
+--used for the moving photos on the home-page
 CREATE TABLE igeo_db.carousel (
     CarouselID INT NOT NULL AUTO_INCREMENT,
     CarouselImage LONGBLOB NOT NULL,
     PRIMARY KEY (CarouselID)
 );
 
+
+--inserting the basic data
+--rest of the data inserts are seperate files, because filesize
 INSERT INTO igeo_db.prices
 VALUES  (NULL, 'Heren', 'Knippen', '25'),
         (NULL, 'Heren', 'Knippen/Wassen', '27.50'),
