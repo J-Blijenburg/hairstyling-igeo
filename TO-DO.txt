@@ -9,15 +9,15 @@ MARIA NILA
 PRIJZEN
     samenvoegen -- gedaan
 CONTACT
-    outlining
-        map
-        openingstijden
+    outlining  -- gedaan
+        map  -- gedaan
+        openingstijden  -- gedaan
 HEADER
 FOOTER
 
 ALGEMEEN
     responsive
-        hamburger
+        hamburger  -- gedaan
         zorgen dat de hamburgermenu op elke grote goed afgelijnd is
 
     fotos editen

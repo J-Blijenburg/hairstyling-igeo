@@ -68,52 +68,7 @@
 
         </div>
 
-        <div class="homePrijzenCard">
-            <table class="table table-striped" id="prijzenCardTable">
-                <thead>
-                    <tr>
-                        <th scope="col">Standaard knippen</th>
-                        <th scope="col">Prijs</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php foreach ($pricesDames as $row) {
-                        if ($row->PriceName == 'knippen') {
-                    ?>
-                            <tr>
-                                <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                        echo $priceFormat; ?>,-</td>
-                            </tr>
-
-                    <?php
-                        }
-                    } ?>
-                    <?php foreach ($pricesHeren as $row) {
-                        if ($row->PriceName == 'knippen') {
-
-                    ?>
-                            <tr>
-                                <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                        echo $priceFormat; ?>,-</td>
-                            </tr>
-
-                    <?php
-                        }
-                    } ?>
-                    <?php foreach ($pricesKinderen as $row) {
-                    ?>
-                        <tr>
-                            <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                            <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                    echo $priceFormat; ?>,-</td>
-                        </tr>
-                    <?php
-                    } ?>
-                </tbody>
-            </table>
-        </div>
+       
 
     </div>
 
