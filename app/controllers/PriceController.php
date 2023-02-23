@@ -8,10 +8,12 @@ class PriceController
          $baseController =  new BaseController();
          $baseController->header();
 
+         //prijzen uses the prices, we use the repo to get them from database
          $pricesRepository = new PriceRepository();
 
          $allPrices = $pricesRepository->getAll();
 
+         //we already use seperate arrays of the prices
          $pricesHeren = $pricesRepository->getPricesHeren();
          $pricesDames = $pricesRepository->getPricesDames();
          $pricesKinderen = $pricesRepository->getPricesKinderen();
