@@ -11,7 +11,6 @@ class ProductController
         //we need the maria nila products on the page, so we load them from database using the repo
          $productRepository = new ProductRepository();
          $allProducts = $productRepository->getAll();
-
          require("../views/product.php");
          $baseController->footer();
 

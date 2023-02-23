@@ -66,16 +66,17 @@ function active($currect_page)
             </nav>
         </div>
         <div class="mobileHamburger">
-            <a id="headerImage" href="/home">
-                <img width="100%" src="/images/header/logov2.png" alt="Image is not shown">
-            </a>
+
             <section class="hamburgerNavBar">
+                <a id="headerImage" href="/home">
+                    <img width="20%" src="/images/logo.png" alt="Image is not shown">
+                </a>
                 <input id="menu-toggle" type="checkbox" />
                 <label class='menu-button-container' for="menu-toggle">
                     <div class='menu-button'></div>
                 </label>
                 <ul class="menu">
-                    
+
                     <li onclick="location.href='/home'"> Home</li>
                     <li onclick="location.href='/product'"> Maria Nila</li>
                     <li onclick="location.href='/prijzen'"> Prijzen</li>
