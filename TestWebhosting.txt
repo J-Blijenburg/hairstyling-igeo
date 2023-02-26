@@ -1,0 +1,12 @@
+hairstylingigeo.000webhostapp.com
+
+Project Name:
+HairstylingIgeo
+b^@)Bim7Y(xWOhElnr%G
+
+
+Inloggegevens DB:
+Database name:      IgeoDB                  id20367896_igeodb
+Database username:  IgeoDataBaseUser        id20367896_igeodatabaseuser
+Password:           ddjb2]s(y-kbzV>|
+DBHOST:             localhost

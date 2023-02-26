@@ -88,8 +88,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 10%;
-    background-color: #CEDFED;
-
   }
 
   .hamburgerHomeIgeoImage {
@@ -116,6 +114,10 @@ body {
   .homeIntroText {
     width: 100%;
     margin: 0;
+  }
+
+  .homePrijzenCard {
+    margin-top: 5%;
   }
 }
 

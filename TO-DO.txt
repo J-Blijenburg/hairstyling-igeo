@@ -17,8 +17,8 @@ HEADER -- gedaan
 FOOTER -- gedaan
 ERROR -- gedaan
 
-MOBIEL
-    ander lettertype?
+MOBIEL -- gedaan
+    ander lettertype? -- gedaan
 
 ALGEMEEN
     responsive 
