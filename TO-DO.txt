@@ -10,12 +10,12 @@ MARIA NILA
 PRIJZEN
     samenvoegen -- gedaan
 CONTACT
-    outlining  -- gedaan
+    outlining
         map  -- gedaan
         openingstijden  -- gedaan
 HEADER
 FOOTER
-ERROR page
+ERROR
 
 ALGEMEEN
     responsive
