@@ -1,33 +1,33 @@
-HOME
+HOME -- gedaan
     carousel -- gedaan
     layout -- gedaan
-    tekst schrijven
+    tekst schrijven -- gedaan
 MARIA NILA
     Vegan product aangeven -- gedaan
     data invoer
     layout prijzen
     Er voor zorgen dat de pagina responsive is. Dit kan pas nadat alle producten zijn ingevoerd.
-PRIJZEN
+PRIJZEN -- gedaan
     samenvoegen -- gedaan
-CONTACT
+CONTACT -- gedaan
     outlining
         map  -- gedaan
         openingstijden  -- gedaan
-HEADER
-FOOTER
-ERROR
+HEADER -- gedaan
+FOOTER -- gedaan
+ERROR -- gedaan
 
 MOBIEL
     ander lettertype?
 
 ALGEMEEN
-    responsive
+    responsive 
         hamburger  -- gedaan
-        zorgen dat de hamburgermenu op elke grote goed afgelijnd is
+        zorgen dat de hamburgermenu op elke grote goed afgelijnd is -- gedaan
 
-    fotos editen
-        allemaal zelfde formaat
-    kleuren check
+    fotos editen -- gedaan
+        allemaal zelfde formaat --  gedaan
+    kleuren check -- gedaan
     commenten -- gedaan
     clean up code
     CSS wellicht anders aan roepen (Via link ipv. require)
