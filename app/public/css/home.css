@@ -8,8 +8,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 75%;
-  margin: 2.5%;
   margin-top: 0;
   background-color: #CEDFED;
 }
@@ -24,8 +22,6 @@ body {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -41,7 +37,6 @@ body {
 .homeImage {
   width: 25%;
   background-color: #CEDFED;
-  margin: 2.5%;
   margin-top: 0;
 }
 
@@ -81,7 +76,7 @@ body {
 }
 
 /* media screen for mobile */
-@media only screen and (max-width: 480px)  {
+@media only screen and (max-width: 480px) {
   .homeStructure {
     display: none;
   }
@@ -126,32 +121,235 @@ body {
 
 
 /* media screen for tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px)  {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .hamburgerHomeStructure {
     display: none;
+  }
+
+  .pricesAndImage {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  .homeStructure {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .homeIntroText h1 {
+    font-size: 275%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .homeIntroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: #CEDFED;
+    width: 90%;
+  }
+
+  .imageIgeo {
+    display: none;
+
+  }
+
+  .homeImageText {
+    width: 100%;
+    margin: 2%;
+    background-color: wheat;
+  }
+
+  .homePrijzenCard {
+    display: flex;
+    width: 65%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+  }
+
+  .homeImage {
+    width: 25%;
+    background-color: #CEDFED;
+    margin-top: 5%;
   }
 }
 
 /* media screen for smalscreen, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .hamburgerHomeStructure {
     display: none;
   }
 
+  .homePrijzenCard {
+    display: flex;
+    width: 90%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+  }
+
+  .pricesAndImage {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .homeIntroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: #CEDFED;
+    width: 90%;
+  }
+
+  .homeImage {
+    width: 25%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+    display: none;
+  }
 }
 
 /* media screen for Desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .hamburgerHomeStructure {
     display: none;
+  }
+
+  .homePrijzenCard {
+    display: flex;
+    width: 65%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+    order: 2;
+  }
+
+  .pricesAndImage {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .homeIntroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: #CEDFED;
+    width: 65%;
   }
 
 }
 
 /* media screen for extra large screens */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
   .hamburgerHomeStructure {
     display: none;
   }
 
+  .pricesAndImage {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .homeIntroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: #CEDFED;
+    width: 65%;
+  }
+
+  .homeIntroText h1 {
+    font-size: 400%;
+    margin-left: 2%;
+  }
+
+
+  .homePrijzenCard {
+    display: flex;
+    width: 65%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+    order: 2;
+  }
+
+  .homeImage {
+    width: 20%;
+    background-color: #CEDFED;
+  }
+}
+
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+  .hamburgerHomeStructure {
+    display: none;
+  }
+  .pricesAndImage {
+    display: flex;
+    width: 100%;
+    border-radius: 5%;
+    padding-top: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .homeIntroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    background-color: #CEDFED;
+    width: 65%;
+  }
+
+  .homeIntroText h1 {
+    font-size: 400%;
+    margin-left: 2%;
+  }
+
+
+  .homePrijzenCard {
+    display: flex;
+    width: 65%;
+    background-color: #CEDFED;
+    margin-top: 5%;
+    order: 2;
+  }
+
+  .homePrijzenCard tr{
+    font-size: 200%;
+  }
+
+  .homeImage {
+    width: 20%;
+    background-color: #CEDFED;
+  }
+
+  .homeImageText p {
+    margin: 5%;
+    font-size: 165%;
+  }
 }

@@ -57,11 +57,13 @@ li:last-child {
     justify-content: space-evenly;
     width: 35%;
 }
+
 /* media screen for mobile */
-@media only screen and (max-width: 480px)  {
+@media only screen and (max-width: 480px) {
     .headerLogo {
         display: none;
     }
+
     h2 {
         vertical-align: center;
         text-align: center;
@@ -73,7 +75,7 @@ li:last-child {
         box-sizing: border-box;
     }
 
-    .hamburgerNavBar{
+    .hamburgerNavBar {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -197,22 +199,38 @@ li:last-child {
 
 
 /* media screen for tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px)  {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .mobileHamburger {
         display: none;
     }
+
+    .navigation h5 {
+        font-size: 90%;
+    }
+
+
+    li.navigation {
+        padding-top: 3%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
 }
 
 /* media screen for smalscreen, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .mobileHamburger {
         display: none;
     }
+
+
 
 }
 
 /* media screen for Desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .mobileHamburger {
         display: none;
     }
@@ -220,13 +238,16 @@ li:last-child {
 }
 
 /* media screen for extra large screens */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
     .mobileHamburger {
         display: none;
     }
 
 }
 
-
-
-
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+    .mobileHamburger {
+        display: none;
+    }
+}

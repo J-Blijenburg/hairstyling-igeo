@@ -66,9 +66,19 @@ footer {
 
 /* media screen for tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px)  {
-    .hamburgerFooterInformation{
+    .footer{
         display: none;
-    }
+      }
+      
+      .hamburgerFooterInformation{
+          display: flex;
+          justify-content: space-around;
+          background-color: #72A5CD;
+          height: 75px;
+          align-items: center;
+          position:initial;
+          margin-top: 5%;
+      }
 }
 
 /* media screen for smalscreen, laptops */
