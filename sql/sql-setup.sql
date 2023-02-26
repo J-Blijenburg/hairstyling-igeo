@@ -24,15 +24,6 @@ CREATE TABLE igeo_db.products (
     PRIMARY KEY (ProductID)
 );
 
---is not getting used at the moment
-CREATE TABLE igeo_db.data (
-    DataID INT NOT NULL AUTO_INCREMENT,
-    DataPage INT NOT NULL,
-    DataText LONGTEXT NULL,
-    DataImage LONGBLOB NULL,
-    PRIMARY KEY (DataID)
-);
-
 --used for the table of the contactpage
 CREATE TABLE igeo_db.openingHours (
     OpeningsHoursID INT NOT NULL AUTO_INCREMENT,
@@ -45,9 +36,8 @@ CREATE TABLE igeo_db.openingHours (
 
 --used for the moving photos on the home-page
 CREATE TABLE igeo_db.carousel (
-    CarouselID INT NOT NULL AUTO_INCREMENT,
-    CarouselImage LONGBLOB NOT NULL,
-    PRIMARY KEY (CarouselID)
+    CarouselID INT NOT NULL,
+    CarouselImage LONGBLOB NOT NULL
 );
 
 
