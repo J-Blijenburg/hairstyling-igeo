@@ -17,6 +17,9 @@ HEADER
 FOOTER
 ERROR
 
+MOBIEL
+    ander lettertype?
+
 ALGEMEEN
     responsive
         hamburger  -- gedaan
