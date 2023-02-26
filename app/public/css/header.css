@@ -69,12 +69,6 @@ li:last-child {
         text-align: center;
     }
 
-
-    * {
-        font-family: "Raleway";
-        box-sizing: border-box;
-    }
-
     .hamburgerNavBar {
         display: flex;
         align-items: center;
