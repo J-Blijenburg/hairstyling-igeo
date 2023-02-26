@@ -16,10 +16,9 @@ __/\\\\\\\\\\\\_____/\\\\\\\\\\\\\\\____________/\\\________________/\\\\\\\\\\\
        ||           () GitHub   https://github.com/J-Blijenburg/hairstyling-igeo                         ||                       
        ||           ()                                                                                   ||
        \\================================================================================================//
-       
 -->
 
-<!-- once website opens immediately redirects to SwitchRouter -->
+<!-- ones websites opens immediately redirects to SwitchRouter -->
 <?php
 require __DIR__ . '/../routing/SwitchRouter.php';
 
