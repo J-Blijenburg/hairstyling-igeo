@@ -6,6 +6,7 @@ MARIA NILA
     Vegan product aangeven -- gedaan
     data invoer
     layout prijzen
+    Er voor zorgen dat de pagina responsive is. Dit kan pas nadat alle producten zijn ingevoerd.
 PRIJZEN
     samenvoegen -- gedaan
 CONTACT

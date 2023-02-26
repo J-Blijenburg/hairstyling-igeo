@@ -120,9 +120,20 @@
 }
 
 /* media screen for extra large screens */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1900px){
   .hamburgerProductStructure {
     display: none;
   }
 
+}
+
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+  .hamburgerProductStructure {
+    display: none;
+  }
+
+  .prijzenCard tr{
+      font-size: 150%;
+  }
 }
