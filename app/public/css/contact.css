@@ -22,7 +22,7 @@
 
 /* Contains information of the card 'Contact' */
 .contactContact {
-    padding: 2% 5%;
+    padding: 2% 2%;
     margin-left: 5%;
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@
 
 .contactDetail {
     justify-content: space-between;
-    width: 20%;
+    width: 25%;
 }
 
 .contactPara {
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: center;
     background-color: #72A5CD;
-    padding-top: 5%;
+    align-items: center;
     width: 100%;
     height: 75px;
 }
@@ -96,8 +96,7 @@
     display: flex;
     justify-content: center;
     background-color: #72A5CD;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    align-items: center;
     width: 100%;
 }
 
@@ -113,12 +112,7 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 481px) {
-    .hamburgerContactStructure {
-        display: none;
-    }
-}
-
+/* media screen for the mobile version */
 @media only screen and (max-width: 480px) {
     .contactStructure {
         display: none;
@@ -160,3 +154,36 @@
         width: 90%;
     }
 }
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+

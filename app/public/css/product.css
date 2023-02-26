@@ -67,40 +67,62 @@
     flex-direction: column;
     background-color: #CEDFED;
 }
+  /* media screen for mobile */
+@media only screen and (max-width: 480px)  {
+  .productStructure {
+    display: none;
+  }
 
-.contentImages img{
-    /* max-height: 180px; */
+  .hamburgerProductStructure {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 5%;
+    }
+
+    .hamburgerProductStructure .card{
+      width: 40%;
+    }
+
+    .hamburgerProductStructure .card p{
+      font-size: 75%;
+    }
+
+    .hamburgerProductStructure .card img{
+      min-height: 250px;
+    }
 }
 
-@media only screen and (min-width: 481px) {
-    .hamburgerProductStructure {
-      display: none;
-    }
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+  .hamburgerProductStructure {
+    display: none;
+  }
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+  .hamburgerProductStructure {
+    display: none;
   }
 
-@media only screen and (max-width: 480px) {
-    .productStructure {
-      display: none;
-    }
+}
 
-    .hamburgerProductStructure {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-top: 5%;
-      }
-
-      .hamburgerProductStructure .card{
-        width: 40%;
-      }
-
-      .hamburgerProductStructure .card p{
-        font-size: 75%;
-      }
-
-      .hamburgerProductStructure .card img{
-        min-height: 250px;
-      }
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+  .hamburgerProductStructure {
+    display: none;
   }
+
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) {
+  .hamburgerProductStructure {
+    display: none;
+  }
+
+}

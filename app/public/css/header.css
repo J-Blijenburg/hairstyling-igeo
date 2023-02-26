@@ -57,15 +57,8 @@ li:last-child {
     justify-content: space-evenly;
     width: 35%;
 }
-
-
-@media only screen and (min-width: 481px) {
-    .mobileHamburger {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 480px) {
+/* media screen for mobile */
+@media only screen and (max-width: 480px)  {
     .headerLogo {
         display: none;
     }
@@ -200,5 +193,40 @@ li:last-child {
             border-bottom: 1px solid #444;
         }
     }
+}
+
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    .mobileHamburger {
+        display: none;
+    }
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    .mobileHamburger {
+        display: none;
+    }
 
 }
+
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    .mobileHamburger {
+        display: none;
+    }
+
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) {
+    .mobileHamburger {
+        display: none;
+    }
+
+}
+
+
+
+
