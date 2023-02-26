@@ -14,6 +14,7 @@ CONTACT
         openingstijden  -- gedaan
 HEADER
 FOOTER
+ERROR page
 
 ALGEMEEN
     responsive
@@ -23,7 +24,7 @@ ALGEMEEN
     fotos editen
         allemaal zelfde formaat
     kleuren check
-
+    commenten -- gedaan
     clean up code
     CSS wellicht anders aan roepen (Via link ipv. require)
 
