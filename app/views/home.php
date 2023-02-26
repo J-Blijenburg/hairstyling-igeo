@@ -42,8 +42,8 @@
                         ?>
                                 <tr>
                                     <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                            echo $priceFormat; ?>,-</td>
+                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                            echo $priceFormat; ?></td>
                                 </tr>
 
                         <?php
@@ -55,8 +55,8 @@
                         ?>
                                 <tr>
                                     <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                            echo $priceFormat; ?>,-</td>
+                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                            echo $priceFormat; ?></td>
                                 </tr>
 
                         <?php
@@ -66,8 +66,8 @@
                         ?>
                             <tr>
                                 <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, '.', '');
-                                        echo $priceFormat; ?>,-</td>
+                                <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                        echo $priceFormat; ?></td>
                             </tr>
                         <?php
                         } ?>

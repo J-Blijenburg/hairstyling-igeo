@@ -4,7 +4,7 @@ HOME -- gedaan
     tekst schrijven -- gedaan
 MARIA NILA
     Vegan product aangeven -- gedaan
-    data invoer
+    data invoer -- gedaan
     layout prijzen
     Er voor zorgen dat de pagina responsive is. Dit kan pas nadat alle producten zijn ingevoerd.
 PRIJZEN -- gedaan
