@@ -11,7 +11,7 @@
             <h3>Dit is een pagina die nog niet bestaat. Het kan zijn dat je een typfout hebt gemaakt in de url.</h3>
         </div>
         <div class="col">
-            <img src="/images/logo.png">
+            <img src="/images/logo_nobg.png">
         </div>
         <div class="col"></div>
     </div>
