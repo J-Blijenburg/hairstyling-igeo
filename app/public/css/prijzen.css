@@ -21,6 +21,10 @@
     margin-bottom: 0;
 }
 
+.prijzenCard th{
+    width: 100%;
+}
+
 /* media screen for mobile */
 @media only screen and (max-width: 480px)  {
     .prijzenStructure {
@@ -39,10 +43,7 @@
         margin-bottom: 5%;
     }
 
-    .prijzenCard th{
-        width: 100%;
-    }
-
+  
     
 }
 
@@ -68,20 +69,14 @@
         margin-left: 5%;
     }
 
-    
-    .prijzenCard th{
-        width: 100%;
-    }
+  
 }
 
 /* media screen for smalscreen, laptops */
 @media only screen and (min-width: 769px) and (max-width: 1024px)  {
-   
     .hamburgerprijzenStructure {
         display: none;
     }
-
-    
 
     .prijzenCard {
         width: 45%;
@@ -97,10 +92,7 @@
 @media only screen and (min-width: 1025px) and (max-width: 1200px)  {
     .hamburgerprijzenStructure {
         display: none;
-    }
-
-   
-    
+    } 
 }
 
 /* media screen for extra large screens */
@@ -108,7 +100,6 @@
     .hamburgerprijzenStructure {
         display: none;
     }
-
 }
 
 /* For Projectors or Higher Resolution Screens (Full HD) */
