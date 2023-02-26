@@ -12,6 +12,7 @@
     width: 100%;
     margin-bottom: 5%;
 }
+
 /* All the information that is placed on the page */
 .contactInformation {
     display: flex;
@@ -26,7 +27,7 @@
     margin-left: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 90%;
     background-color: lightgrey;
     flex-wrap: wrap;
@@ -34,8 +35,7 @@
 }
 
 .contactDetail {
-    justify-content: space-between;
-    width: 25%;
+    width: 30%;
 }
 
 .contactPara {
@@ -125,7 +125,8 @@
         flex-direction: column;
         align-items: center;
     }
-    .contactContact{
+
+    .contactContact {
         margin-top: 2.5%;
         margin-left: 0;
     }
@@ -145,34 +146,115 @@
     }
 
     .contactLocation {
-        margin-top:10%;
+        margin-top: 10%;
         width: 90%;
     }
 
-    .contactTimeSlots{
-        margin-top:10%;
+    .contactTimeSlots {
+        margin-top: 10%;
         width: 90%;
     }
 }
 
 /* media screen for tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px)  {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .hamburgerContactStructure {
         display: none;
     }
 
+
+    .contactDetail {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contactLink {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 90%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .contactInformation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5%;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
+
+
+    .contactLocation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        background-color: lightgrey;
+        flex-wrap: wrap;
+        padding-bottom: 2.5%;
+        margin-top: 5%;
+        border-radius: 2.5%;
+        order: 2;
+    }
+
+    .contactTimeSlots {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        background-color: lightgrey;
+        flex-wrap: wrap;
+        padding-bottom: 2.5%;
+        margin-top: 2.5%;
+        border-radius: 2.5%;
+        order: 1;
+    }
 }
 
 /* media screen for smalscreen, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     .hamburgerContactStructure {
         display: none;
     }
 
+    .contactDetail {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contactLink {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 125%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
 }
 
 /* media screen for Desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .hamburgerContactStructure {
         display: none;
     }
@@ -180,10 +262,40 @@
 }
 
 /* media screen for extra large screens */
-@media only screen and (min-width: 1201px) {
+@media only screen and (min-width: 1201px) and (max-width: 1920px){
     .hamburgerContactStructure {
         display: none;
     }
 
 }
 
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 250%;
+        display: flex;
+        justify-content: center;
+    }
+    .contactImage {
+        height: 60px;
+        width: auto;
+    }
+
+    .contactDetail {
+        display: flex;
+        width: 30%;
+    }
+
+    .contactStructure p {
+       font-size: 150%;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
+}
