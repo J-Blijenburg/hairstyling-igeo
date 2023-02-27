@@ -47,10 +47,10 @@
                                     <td> <?php echo $row->OpeningsHoursBeginTime ?></td>
                                     <td>-</td>
                                     <td> <?php echo $row->OpeningsHoursEndTime ?></td><?
-                                                                                    } else { ?>
+                                    } else { ?>
                                     <td class="contactTableClosed" colspan="3">GESLOTEN</td><?php
-                                                                                        }
-                                                                                            ?>
+                                    }
+                                    ?>
                             </tr>
                         <?php
                         }

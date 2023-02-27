@@ -1,35 +1,11 @@
-HOME -- gedaan
-    carousel -- gedaan
-    layout -- gedaan
-    tekst schrijven -- gedaan
-MARIA NILA
-    Vegan product aangeven -- gedaan
-    data invoer -- gedaan
-    layout prijzen
-    Er voor zorgen dat de pagina responsive is. Dit kan pas nadat alle producten zijn ingevoerd.
-PRIJZEN -- gedaan
-    samenvoegen -- gedaan
-CONTACT -- gedaan
-    outlining
-        map  -- gedaan
-        openingstijden  -- gedaan
-HEADER -- gedaan
-FOOTER -- gedaan
-ERROR -- gedaan
+contact mobiel middelste nummer eruit
+productpagina layout redo
+productpagina mobiel kleurcheck
+header mobiel logo afgronde hoeken
+errorpagina mobiel layout
 
-MOBIEL -- gedaan
-    ander lettertype? -- gedaan
 
-ALGEMEEN
-    responsive 
-        hamburger  -- gedaan
-        zorgen dat de hamburgermenu op elke grote goed afgelijnd is -- gedaan
+clean up code
+CSS wellicht anders aan roepen (Via link ipv. require)
 
-    fotos editen -- gedaan
-        allemaal zelfde formaat --  gedaan
-    kleuren check -- gedaan
-    commenten -- gedaan
-    clean up code
-    CSS wellicht anders aan roepen (Via link ipv. require)
-
-    Testen op gratis hosting server
+AFSPRAAK MAKEN MET IGEO voor final product showcase

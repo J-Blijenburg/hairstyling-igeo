@@ -20,7 +20,7 @@ __/\\\\\\\\\\\\_____/\\\\\\\\\\\\\\\____________/\\\________________/\\\\\\\\\\\
 
 <!-- ones websites opens immediately redirects to SwitchRouter -->
 <?php
-require __DIR__ . '/../routing/SwitchRouter.php';
+require __DIR__ . '/../routing/switchrouter.php';
 
 $url = $_SERVER['REQUEST_URI'];
 

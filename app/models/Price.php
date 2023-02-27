@@ -1,5 +1,5 @@
 <?php
-class Price{
+class Price {
     public int $PriceID;
     public string $PriceType;
     public string $PriceName;
