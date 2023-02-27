@@ -114,11 +114,12 @@
 
   #contentPriceMobile {
     display: flex;
+    gap: 5%;
   }
 
   #productCardInformation{
     font-size: 75%;
-    margin-bottom: 1%;
+    margin-bottom: 0.5rem;
   }
   #cardBodyInformation{
     display: flex;
