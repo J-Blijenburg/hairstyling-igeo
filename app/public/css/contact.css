@@ -146,7 +146,7 @@
     }
 
     .contactLocation {
-        margin-top: 10%;
+        margin-top: 5%;
         width: 90%;
     }
 
@@ -155,8 +155,19 @@
     }
 
     .contactTimeSlots {
-        margin-top: 10%;
+        margin-top: 5%;
         width: 90%;
+    }
+
+    .contactPara{
+        padding-left: 0;
+    }
+
+    .contactInformationMobile{
+        font-size: 65%;
+        padding-top: 2.5%;
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
