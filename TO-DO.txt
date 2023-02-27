@@ -1,13 +1,8 @@
 contact mobiel middelste nummer eruit -- gedaan
-productpagina layout redo 
+productpagina layout redo -- gedaan
 productpagina mobiel kleurcheck -- gedaan
 header mobiel logo afgronde hoeken -- gedaan
 errorpagina mobiel layout
-
-Er zit een bug in de controller ProductController.php   
-    nadat er op een button is geklikt worden alle items van die compositie wel geshowd alleen head & hair heal niet.
-    Dit kan gefixt worden door htmlspecialchars weg te halen maarja, dat is minder veilig.
-
 
 clean up code
 CSS wellicht anders aan roepen (Via link ipv. require)

@@ -14,7 +14,7 @@ class ProductController
          
            
          if(isset($_POST['btnComposition'])){
-            $currentComposition = htmlspecialchars($_POST['btnComposition']);
+            $currentComposition = $_POST['btnComposition'];
             $allItemComposition = $productRepository->getEntireComposition($currentComposition);
             require("../views/composition.php");
          }else{
