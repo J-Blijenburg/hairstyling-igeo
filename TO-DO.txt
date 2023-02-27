@@ -1,5 +1,5 @@
 contact mobiel middelste nummer eruit -- gedaan
-productpagina layout redo
+productpagina layout redo 
 productpagina mobiel kleurcheck
 header mobiel logo afgronde hoeken
 errorpagina mobiel layout

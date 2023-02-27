@@ -69,7 +69,7 @@ function active($currect_page)
 
             <section class="hamburgerNavBar">
                 <a id="headerImage" href="/home">
-                    <img width="20%" src="/images/logo.png" alt="Image is not shown">
+                    <img id="test" width="20%" src="/images/logo.png" alt="Image is not shown">
                 </a>
                 <input id="menu-toggle" type="checkbox" />
                 <label class='menu-button-container' for="menu-toggle">

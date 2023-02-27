@@ -189,6 +189,9 @@ li:last-child {
             border-bottom: 1px solid #444;
         }
     }
+    .test{
+        border-radius: 50%;
+    }
 }
 
 
