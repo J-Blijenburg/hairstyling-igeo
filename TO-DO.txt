@@ -1,7 +1,7 @@
 contact mobiel middelste nummer eruit -- gedaan
 productpagina layout redo 
 productpagina mobiel kleurcheck
-header mobiel logo afgronde hoeken
+header mobiel logo afgronde hoeken -- gedaan
 errorpagina mobiel layout
 
 
