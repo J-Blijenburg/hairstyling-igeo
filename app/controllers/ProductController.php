@@ -9,9 +9,15 @@ class ProductController
         $baseController->header();
 
         //we need the maria nila products on the page, so we load them from database using the repo
-        $productRepository = new ProductRepository();
-        $allProducts = $productRepository->getAll();
-        require("../views/product.php");
-        $baseController->footer();
+         $productRepository = new ProductRepository();
+         if(isset($_POST['btnComposition'])){
+            $currentComposition = $_POST['btnComposition'];
+            $allItemComposition = $productRepository->getEntireComposition($currentComposition);
+            require("../views/composition.php");
+         }else{
+            $allProducts = $productRepository->getAll();
+            require("../views/product.php");
+         }
+         $baseController->footer();
     }
 }

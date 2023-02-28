@@ -1,9 +1,8 @@
 contact mobiel middelste nummer eruit -- gedaan
-productpagina layout redo 
-productpagina mobiel kleurcheck
+productpagina layout redo -- gedaan
+productpagina mobiel kleurcheck -- gedaan
 header mobiel logo afgronde hoeken -- gedaan
 errorpagina mobiel layout
-
 
 clean up code
 CSS wellicht anders aan roepen (Via link ipv. require)

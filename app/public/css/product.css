@@ -1,110 +1,143 @@
-
 /* Gives the entire page flexbox so you can center every element */
 .productStructure {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 5%;
-    margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5%;
+  margin-top: 0;
 }
 
 /* This card contains a row of products  f.e. Head & hair Heal*/
 #productCard {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
 }
 
 /* The card has 1 big main image */
 .cardImage {
-    display: flex;
-    width: 25%;
+  display: flex;
+  width: 25%;
 }
 
 /* A card contains information about a product and this determines the position of that product */
 .productInformationText {
-    margin: 2.5%;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: column;
+  margin: 2.5%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
 }
-#backgroundBadge{
-    background-color:  #8ec298;
+
+#backgroundBadge {
+  background-color: #8ec298;
 }
 
 /* The header text of a card */
 .productInformationText h3 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1%;
 }
 
 /* The card contains multiple cards which can be positioned with this id */
 #contentBodyCard {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Detemines the size of a single product */
 #contentSingleProduct {
-    width: 15%;
-    background-color:lightgoldenrodyellow;
+  width: 15%;
+  background-color: lightgoldenrodyellow;
 }
 
 /* Determines the location of the price in the product */
 #contentPrice {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
 }
 
 /* Most information about the product */
 .productinformation {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    background-color: #CEDFED;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  background-color: #CEDFED;
 }
-  /* media screen for mobile */
-@media only screen and (max-width: 480px)  {
+
+/* media screen for mobile */
+@media only screen and (max-width: 480px) {
   .productStructure {
     display: none;
   }
 
   .hamburgerProductStructure {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-top: 5%;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-    .hamburgerProductStructure .card{
-      width: 40%;
-    }
+  }
 
-    .hamburgerProductStructure .card p{
-      font-size: 75%;
-    }
+  .hamburgerProductStructure .card {
+    width: 40%;
+    margin-top: 5%;
+    background-color: #CEDFED;
 
-    .hamburgerProductStructure .card img{
-      min-height: 250px;
-    }
+  }
+
+  .hamburgerProductStructure .card p {
+    font-size: 75%;
+  }
+
+  .hamburgerProductStructure .card img {
+    min-height: 250px;
+  }
+
+  .hamburgerProductStructure .card .card-body {
+    padding-bottom: 2.5%;
+  }
+
+  .hamburgerProductStructure .card form {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #btnMoreInfo {
+    padding: 2%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  #contentPriceMobile {
+    display: flex;
+    gap: 5%;
+  }
+
+  #productCardInformation{
+    font-size: 75%;
+    margin-bottom: 0.5rem;
+  }
+  #cardBodyInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 
 /* media screen for tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px)  {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .hamburgerProductStructure {
     display: none;
   }
 }
 
 /* media screen for smalscreen, laptops */
-@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .hamburgerProductStructure {
     display: none;
   }
@@ -112,7 +145,7 @@
 }
 
 /* media screen for Desktops, large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .hamburgerProductStructure {
     display: none;
   }
@@ -120,7 +153,7 @@
 }
 
 /* media screen for extra large screens */
-@media only screen and (min-width: 1201px) and (max-width: 1900px){
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
   .hamburgerProductStructure {
     display: none;
   }
@@ -133,7 +166,7 @@
     display: none;
   }
 
-  .prijzenCard tr{
-      font-size: 150%;
+  .prijzenCard tr {
+    font-size: 150%;
   }
 }

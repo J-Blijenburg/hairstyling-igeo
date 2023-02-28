@@ -45,19 +45,26 @@
             ?>
         <?php } ?>
     </div>
-    <div class="hamburgerProductStructure">
+    <div class="hamburgerProductStructure" id="hamburgerProductStructure">
         <?php
         foreach ($allProducts as $row) {
             if ($row->ProductType == 1) {
         ?>
-                <div class="card" >
+                <div class="card">
                     <?php $dataUri = "data:image/jpg;charset=utf;base64," . base64_encode($row->ProductImage) ?>
                     <img src="<?php echo $dataUri; ?>" class="img-fluid" alt="Image is not shown" width="100%">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row->ProductName ?> </h5>
                         <p class="card-text"><?php echo $row->ProductDescription ?></p>
                     </div>
+                    <div>
+                        <form method="POST">
+                            <button id="btnMoreInfo" class="btn btn-outline-primary" type="submit" value="<?php echo $row->ProductName?>" name="btnComposition">more info</button>
+                        </form>
+                    </div>
                 </div>
         <?php }
         } ?>
+    </div>
 </main>
+
