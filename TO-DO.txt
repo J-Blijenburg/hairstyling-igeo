@@ -2,9 +2,9 @@ contact mobiel middelste nummer eruit -- gedaan
 productpagina layout redo -- gedaan
 productpagina mobiel kleurcheck -- gedaan
 header mobiel logo afgronde hoeken -- gedaan
-errorpagina mobiel layout
+errorpagina mobiel layout -- gedaan
 
-clean up code
+clean up code -- gedaan
 CSS wellicht anders aan roepen (Via link ipv. require)
 
 AFSPRAAK MAKEN MET IGEO voor final product showcase -- gedaan

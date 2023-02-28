@@ -1,0 +1,51 @@
+.error-header {
+    width: 100%;
+    text-align:center;
+}
+
+/* media screen for mobile */
+@media only screen and (max-width: 480px) {
+    #error-info {
+        display: none;
+    }
+    #error-ex {
+        display: none;
+    }
+    .error-img {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #error-info {
+        display: none;
+    }
+    #error-ex {
+        display: none;
+    }
+    .error-img {
+        width: 100vw;
+        height: auto;
+    }
+}
+  
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+  
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+  
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
+
+}
+  
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+
+}
