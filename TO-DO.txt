@@ -8,4 +8,4 @@ errorpagina mobiel layout
 clean up code
 CSS wellicht anders aan roepen (Via link ipv. require)
 
-AFSPRAAK MAKEN MET IGEO voor final product showcase
+AFSPRAAK MAKEN MET IGEO voor final product showcase -- gedaan

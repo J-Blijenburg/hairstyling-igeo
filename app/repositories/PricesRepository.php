@@ -40,5 +40,4 @@ class PriceRepository extends Repository {
         $prices = $stmt->fetchAll();
         return $prices;
     }
-
 }

@@ -21,6 +21,4 @@ class ProductRepository extends Repository {
         $products = $stmt->fetchAll();
         return $products;
     }
-
-    
 }

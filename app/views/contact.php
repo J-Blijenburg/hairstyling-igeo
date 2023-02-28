@@ -35,7 +35,6 @@
             <h2 class="contactTimeTableTitle">
                 Openingstijden
             </h2>
-
             <div class="timeTable">
                 <table class="table table-striped">
                     <tbody>
@@ -47,10 +46,9 @@
                                     <td> <?php echo $row->OpeningsHoursBeginTime ?></td>
                                     <td>-</td>
                                     <td> <?php echo $row->OpeningsHoursEndTime ?></td><?
-                                                                                    } else { ?>
+                                } else { ?>
                                     <td class="contactTableClosed" colspan="3">GESLOTEN</td><?php
-                                                                                        }
-                                                                                            ?>
+                                }?>
                             </tr>
                         <?php
                         }
@@ -59,9 +57,7 @@
                 </table>
             </div>
         </div>
-
     </div>
-
 </div>
 <div class="hamburgerContactStructure">
     <div class="contactContact">
@@ -88,12 +84,10 @@
             Afspraken maken via <span style="text-decoration:underline;">Whatsapp</span>
         </p>
     </div>
-
     <div class="contactTimeSlots">
         <h2 class="contactTimeTableTitle">
             Openingstijden
         </h2>
-
         <div class="timeTable">
             <table class="table table-striped">
                 <tbody>
@@ -105,9 +99,9 @@
                                 <td> <?php echo $row->OpeningsHoursBeginTime ?></td>
                                 <td>-</td>
                                 <td> <?php echo $row->OpeningsHoursEndTime ?></td><?
-                                                                                } else { ?>
+                            } else { ?>
                                 <td class="contactTableClosed" colspan="3">GESLOTEN</td><?php
-                                                                                    }                                                                                    ?>
+                            }?>
                         </tr>
                     <?php
                     }

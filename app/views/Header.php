@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,22 +65,19 @@ function active($currect_page)
             </nav>
         </div>
         <div class="mobileHamburger">
-
             <section class="hamburgerNavBar">
                 <a id="headerImage" href="/home">
-                    <img id="test" width="20%" src="/images/logo.png" alt="Image is not shown">
+                    <img id="logo" width="20%" src="/images/logo.png" alt="Image is not shown">
                 </a>
                 <input id="menu-toggle" type="checkbox" />
                 <label class='menu-button-container' for="menu-toggle">
                     <div class='menu-button'></div>
                 </label>
                 <ul class="menu">
-
                     <li onclick="location.href='/home'"> Home</li>
                     <li onclick="location.href='/product'"> Maria Nila</li>
                     <li onclick="location.href='/prijzen'"> Prijzen</li>
                     <li onclick="location.href='/contact'"> Contact</li>
-
                 </ul>
             </section>
         </div>

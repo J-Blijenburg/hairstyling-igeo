@@ -5,7 +5,6 @@
     </div>
     <div class="row">
         <div class="col">
-
         </div>
         <div class="col">
             <h3>Dit is een pagina die nog niet bestaat. Het kan zijn dat je een typfout hebt gemaakt in de url.</h3>

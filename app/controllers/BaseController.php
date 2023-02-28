@@ -6,8 +6,6 @@ class BaseController
     {
         require("../views/header.php");
     }
-
-
     public function footer()
     {
         require("../views/footer.php");

@@ -4,7 +4,6 @@
             <div class="homeIntroText">
                 <div></div>
                 <h1>Hairstyling igeo </h1>
-
                 <div class="homeIgeoImage">
                     <img class="imageIgeo" width="40%" src="/images/igeo.jpg" alt="Image is not shown">
                     <div class="homeImageText">
@@ -19,12 +18,10 @@
                             <b>06 - 18134056 <br> </b>
                             <br>
                             Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten<br>
-
                             <br>
                             Mochten er vragen zijn. <br>
                             Aarzel niet en bel, whatsapp of kom gerust langs. <br>
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -45,20 +42,17 @@
                                     <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
                                             echo $priceFormat; ?></td>
                                 </tr>
-
                         <?php
                             }
                         } ?>
                         <?php foreach ($pricesHeren as $row) {
                             if ($row->PriceName == 'knippen') {
-
                         ?>
                                 <tr>
                                     <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
                                     <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
                                             echo $priceFormat; ?></td>
                                 </tr>
-
                         <?php
                             }
                         } ?>
@@ -77,7 +71,6 @@
             <div class="homeImage">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-
                         <?php
                         $i = 0;
                         foreach ($imageCarousel as $row) {
