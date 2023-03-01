@@ -17,7 +17,7 @@
                             te bellen of een whatsapp te sturen. <br>
                             <b>06 - 18134056 <br> </b>
                             <br>
-                            Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten<br>
+                            Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten.<br>
                             <br>
                             Mochten er vragen zijn. <br>
                             Aarzel niet en bel, whatsapp of kom gerust langs. <br>
