@@ -11,16 +11,16 @@
                             Welkom, <br>
                             <br>
                             Bij Hairstyling igeo wordt u met meer dan 40 jaar<br>
-                            knip ervaring verzorgd. <br>
+                            knipervaring verzorgd. <br>
                             <br>
-                            Alle afsraken kunnen gemaakt worden d.m.v. <br>
+                            Alle afspraken kunnen worden gemaakt d.m.v. <br>
                             te bellen of een whatsapp te sturen. <br>
                             <b>06 - 18134056 <br> </b>
                             <br>
                             Bij ons in de winkel is er ook een ruim assortiment aan<b> Maria Nila </b> producten.<br>
                             <br>
-                            Mochten er vragen zijn. <br>
-                            Aarzel niet en bel, whatsapp of kom gerust langs. <br>
+                            Mochten er vragen zijn, <br>
+                            aarzel niet en bel, whatsapp of kom gerust langs. <br>
                         </p>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
                             if ($row->PriceName == 'knippen') {
                         ?>
                                 <tr>
-                                    <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                    <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
+                                    <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
                                             echo $priceFormat; ?></td>
                                 </tr>
                         <?php
@@ -50,7 +50,7 @@
                         ?>
                                 <tr>
                                     <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                    <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                    <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
                                             echo $priceFormat; ?></td>
                                 </tr>
                         <?php
@@ -59,8 +59,8 @@
                         <?php foreach ($pricesKinderen as $row) {
                         ?>
                             <tr>
-                                <td> <?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
-                                <td> <?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
+                                <td><?php echo $row->PriceType ?> <?php echo $row->PriceName ?></td>
+                                <td>&#8364;<?php $priceFormat = number_format((float)$row->PricePrice, 2, ',', '');
                                         echo $priceFormat; ?></td>
                             </tr>
                         <?php
