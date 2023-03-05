@@ -1,6 +1,6 @@
 <?php
-$servername = "mysql";
-$username = "root";
-$password = "secret123";
-$database = "igeo_db";
+$servername = "rdbms.strato.de";
+$username = "dbu5469604";
+$password = "GekniptZaakje123";
+$database = "dbs10244622";
 ?>
