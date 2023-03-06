@@ -13,7 +13,10 @@ __/\\\\\\\\\\\\_____/\\\\\\\\\\\\\\\____________/\\\________________/\\\\\\\\\\\
 
 <!-- ones websites opens immediately redirects to SwitchRouter -->
 <?php
-require __DIR__ . '/../routing/switchrouter.php';
+
+echo file_exists("../routing/switchrouter.php");
+
+require __DIR__ . '../routing/switchrouter.php';
 
 $url = $_SERVER['REQUEST_URI'];
 

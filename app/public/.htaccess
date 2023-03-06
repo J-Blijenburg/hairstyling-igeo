@@ -1,9 +1,12 @@
+# Enable RewriteEngine
+RewriteEngine On
 
-# HTID:21299432: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21299432:
+# Set base directory
+RewriteBase /
 
-RewriteEngine on
+# If requested resource is not a file or directory
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /index.php?path=$1 [NC,L,QSA]
+
+# Route request to index.php
+RewriteRule ^(.*)$ index.php/$1 [L]
