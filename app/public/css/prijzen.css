@@ -1,21 +1,114 @@
-.prijzenStructure{
+
+.prijzenStructure {
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
 }
+
+.prijzenCard:last-child{
+    margin-top: 2.5%;
+}
+
 .prijzenCard {
     width: 40%;
     display: flex;
-    background-color: lightblue;
+    background-color: #CEDFED;
 }
-.prijzenCard:last-child{
-    margin-top: 5%;
-    margin-left: 30%;
-}
+
 #prijzenCardTable {
     margin-bottom: 0;
+}
+
+.prijzenCard th{
+    width: 100%;
+}
+
+/* media screen for mobile */
+@media only screen and (max-width: 480px)  {
+    .prijzenStructure {
+        display: none;
+    }
+
+    .hamburgerprijzenStructure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+    .prijzenCard{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+  
+    
+}
+
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    .hamburgerprijzenStructure {
+        display: none;
+    }
+
+    .prijzenCard{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .prijzenStructure {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+  
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    .hamburgerprijzenStructure {
+        display: none;
+    }
+
+    .prijzenCard {
+        width: 45%;
+        display: flex;
+        background-color: #CEDFED;
+    }
+    
+    
+    
+}
+
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    .hamburgerprijzenStructure {
+        display: none;
+    } 
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) and (max-width: 1900px){
+    .hamburgerprijzenStructure {
+        display: none;
+    }
+}
+
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+    .hamburgerprijzenStructure {
+        display: none;
+    }
+
+    .prijzenCard tr{
+        font-size: 150%;
+    }
 }

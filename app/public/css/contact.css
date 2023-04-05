@@ -2,6 +2,7 @@
 .contactStructure {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 /* The first title of the page */
@@ -17,34 +18,37 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 2.5%;
+    margin-top: 5%;
 }
 
 /* Contains information of the card 'Contact' */
 .contactContact {
-    padding: 2% 5%;
+    padding: 2% 2%;
     margin-left: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 90%;
     background-color: lightgrey;
     flex-wrap: wrap;
     border-radius: 2.5%;
 }
+
 .contactDetail {
-    justify-content: space-between;
-    width: 20%;
+    width: 30%;
 }
+
 .contactPara {
     margin: 0;
     padding-left: 2%;
     font-size: 150%;
 }
+
 .contactImage {
     height: 40px;
     width: auto;
 }
+
 .contactLink {
     text-decoration: none;
 }
@@ -69,11 +73,10 @@
 .contactLocationTitle {
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    background-color: #72A5CD;
+    align-items: center;
     width: 100%;
-    height: 100px;
+    height: 75px;
 }
 
 /* Contains information of the card 'Openingstijden'  */
@@ -89,12 +92,11 @@
 
 /* The Title of the card 'Openingstijden' */
 .contactTimeTableTitle {
-    height: 100px;
+    height: 75px;
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    background-color: #72A5CD;
+    align-items: center;
     width: 100%;
 }
 
@@ -106,6 +108,209 @@
     padding-top: 5%;
 }
 
-.contactTableClosed{
+.contactTableClosed {
     text-align: center;
+}
+
+/* media screen for the mobile version */
+@media only screen and (max-width: 480px) {
+    .contactStructure {
+        display: none;
+    }
+
+    .hamburgerContactStructure {
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactContact {
+        margin-top: 2.5%;
+        margin-left: 0;
+    }
+
+    .contactDetail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactDetail .contactPara {
+        width: 150%;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .contactLocation {
+        margin-top: 5%;
+        width: 90%;
+    }
+
+    .contactLocation iframe{
+        width: 90%;
+    }
+
+    .contactTimeSlots {
+        margin-top: 5%;
+        width: 90%;
+    }
+
+    .contactPara{
+        padding-left: 0;
+    }
+
+    .contactInformationMobile{
+        font-size: 65%;
+        padding-top: 2.5%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+
+    .contactDetail {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contactLink {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 90%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .contactInformation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5%;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
+
+
+    .contactLocation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        background-color: lightgrey;
+        flex-wrap: wrap;
+        padding-bottom: 2.5%;
+        margin-top: 5%;
+        border-radius: 2.5%;
+        order: 2;
+    }
+
+    .contactTimeSlots {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        background-color: lightgrey;
+        flex-wrap: wrap;
+        padding-bottom: 2.5%;
+        margin-top: 2.5%;
+        border-radius: 2.5%;
+        order: 1;
+    }
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+    .contactDetail {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .contactLink {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 125%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
+}
+
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) and (max-width: 1900px){
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+}
+
+/* For Projectors or Higher Resolution Screens (Full HD) */
+@media screen and (min-width: 1901px) {
+    .hamburgerContactStructure {
+        display: none;
+    }
+
+    .contactPara {
+        margin: 0;
+        font-size: 250%;
+        display: flex;
+        justify-content: center;
+    }
+    .contactImage {
+        height: 60px;
+        width: auto;
+    }
+
+    .contactDetail {
+        display: flex;
+        width: 30%;
+    }
+
+    .contactStructure p {
+       font-size: 150%;
+    }
+
+    .googleMapsImage iframe {
+        width: 80%;
+    }
 }

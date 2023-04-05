@@ -1,7 +1,5 @@
 <?php
-
 class Repository {
-
     protected $connection;
 
     function __construct() {

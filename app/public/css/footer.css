@@ -1,10 +1,11 @@
+/* the footer */
 footer {
     width: 100%;
     bottom: 0;
     height: 0;
     position: absolute;
 }
-
+/* a footer div inside the footer */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,7 @@ footer {
     margin-top: 5%;
     height: 100px;
 }
-
+/* a div inside the footer div inside the footer */
 .footerInformation{
     width: 100%;
     display: flex;
@@ -20,26 +21,86 @@ footer {
     flex-wrap: wrap;
     gap: 2.5%;
 }
+/* a left floating div inside a div inside the footer div inside the footer */
 .footerContactInformationLeft{
     display: flex;
     width: 40%;
     align-items: center;
 }
-
+/* a right floating div inside a div inside the footer div inside the footer */
 .footerContactInformationRight{
     display: flex;
     width: 40%;
     align-items: center;
     flex-direction: row-reverse;
 }
-
+/* a title inside a left floating div inside a div inside the footer div inside the footer */
 .footerContactInformationLeft h6{
     margin-bottom: 0px;
     margin-left: 2.5%;
     font-size: large;
 }
-
+/* a title inside a right floating div inside a div inside the footer div inside the footer */
 .footerContactInformationRight h6{
     margin-bottom: 0px;
     margin-right: 2.5%;
+}
+
+/* media screen for mobile */
+@media only screen and (max-width: 480px)  {
+    .footer{
+        display: none;
+      }
+      
+      .hamburgerFooterInformation{
+          display: flex;
+          justify-content: space-around;
+          background-color: #72A5CD;
+          height: 75px;
+          align-items: center;
+          position:initial;
+          margin-top: 5%;
+      }
+}
+
+
+/* media screen for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px)  {
+    .footer{
+        display: none;
+      }
+      
+      .hamburgerFooterInformation{
+          display: flex;
+          justify-content: space-around;
+          background-color: #72A5CD;
+          height: 75px;
+          align-items: center;
+          position:initial;
+          margin-top: 5%;
+      }
+}
+
+/* media screen for smalscreen, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+    .hamburgerFooterInformation{
+        display: none;
+    }
+
+}
+
+/* media screen for Desktops, large screens */
+@media only screen and (min-width: 1025px) and (max-width: 1200px)  {
+    .hamburgerFooterInformation{
+        display: none;
+    }
+
+}
+
+/* media screen for extra large screens */
+@media only screen and (min-width: 1201px) {
+    .hamburgerFooterInformation{
+        display: none;
+    }
+
 }

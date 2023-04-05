@@ -4,15 +4,16 @@ class ContactController
 {
     public function contact()
     {
-         //The html page consist of multiple view. This is done to prevent duplicated code.
-         $baseController =  new BaseController();
-         $baseController->header();
+        //The html page consist of multiple view. This is done to prevent duplicated code.
+        $baseController =  new BaseController();
+        $baseController->header();
          
-         $openingHoursRepository = new OpeningHoursRepository();
-         $allOpeningHours = $openingHoursRepository->getAll();
-         $allOpeningsHours = $openingHoursRepository->getAll();
+        //contactpage needs the openinghours repo, for the loading of all hours
+        $openingHoursRepository = new OpeningHoursRepository();
+        $allOpeningHours = $openingHoursRepository->getAll();
+        $allOpeningsHours = $openingHoursRepository->getAll();
 
-         require("../views/contact.php");
+        require("../views/contact.php");
         $baseController->footer();
     }
 }

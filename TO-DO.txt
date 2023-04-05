@@ -1,24 +1,10 @@
-HOME
-    carousel
-    layout
-    tekst schrijven
-MARIA NILA
-    data invoer
-    layout prijzen
-PRIJZEN
-    samenvoegen
-CONTACT
-    outlining
-        map
-        openingstijden
-HEADER
-FOOTER
+contact mobiel middelste nummer eruit -- gedaan
+productpagina layout redo -- gedaan
+productpagina mobiel kleurcheck -- gedaan
+header mobiel logo afgronde hoeken -- gedaan
+errorpagina mobiel layout -- gedaan
 
-ALGEMEEN
-    responsive
-        hamburger
-    fotos editen
-        allemaal zelfde formaat
-    kleuren check
+clean up code -- gedaan
+CSS wellicht anders aan roepen (Via link ipv. require)
 
-    clean up code
+AFSPRAAK MAKEN MET IGEO voor final product showcase -- gedaan
